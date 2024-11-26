@@ -1,12 +1,11 @@
-<p align=center> <img src="cover.png" width = 80%/> </p>
+<p align=center> <img src="FedSemHAR.png" width = 80%/> </p>
 
 
-<p align="center"><em>ProtoHAR: Prototype Guided Personalized Federated Learning for Human Activity Recognition (IEEE JBHI 2023)</em></p>
-
-<p align="center"><a href="https://cheng-haha.github.io/">Dongzhou Cheng</a></p>
+<p align="center"><em>FedSemHAR: Personalized Federated Learning for Semantic Human Activity Recognition </em></p>
 
 
-## Abstract (<a href="https://cheng-haha.github.io/papers/ProtoHAR_Prototype_Guided_Personalized_Federated_Learning_for_Human_Activity_Recognition.pdf">paper</a>)
+
+## BASELINE (<a href="https://cheng-haha.github.io/papers/ProtoHAR_Prototype_Guided_Personalized_Federated_Learning_for_Human_Activity_Recognition.pdf">paper</a>)
 <p align=center> <img src="visual abstract.png" width = 80%/> </p>
 
 
@@ -23,7 +22,9 @@ git clone https://github.com/cheng-haha/ProtoHAR.git
 ```
 cd {yourfolder}
 ```
-3. Generate heterogeneous data sets
+3. Download USC-HAD and HARBOX datasets to raw data directory.
+
+4. Generate heterogeneous data sets
 
 
 
@@ -31,10 +32,10 @@ cd {yourfolder}
 
 
 ```
-python  data/uschad/uschad_subdata.py
-python  data/harbox/harbox_subdata.py
+python  data/uschad/uschad_subdata.py --dataset_dir /data/har/raw/USC-HAD/
+python  data/harbox/harbox_subdata.py --dataset_dir /data/har/raw/large_scale_HARBox/
 ```
-4. Usage
+5. Usage
 ````
 bash runexp.sh
 ````

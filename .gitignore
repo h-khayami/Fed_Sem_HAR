@@ -1,0 +1,4 @@
+# Ignore data folders
+data/
+# Exclude Python files from being ignored
+!data/*.py

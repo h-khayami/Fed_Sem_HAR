@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from DataSplitting import random_creat_json,creat_json
 WINDOW_SIZE=512 
-DATASET_DIR='/data1/experiment/chengdongzhou/data/raw/large_scale_HARBox/'
+DATASET_DIR='/data/har/raw/large_scale_HARBox/'
 NUM_USERS = 120
 NUM_LABELS = 5
 CLASS_SET = ['Call','Hop','typing','Walk','Wave']
@@ -62,7 +62,7 @@ def create_user_data( user_id , num_users , reshaped_segments , labels , stdv  )
 
     for i in range( num_users ):
         index = np.where( user_id == i + 1   )
-    #############################全体病态切分#########################    
+    #############################complete pathological segmentation#########################    
         num_labels = len(np.unique(labels[index[0]]))
         num_classes =  num_labels - stdv
         activity_sample = np.random.choice(np.unique(labels[index[0]]), max(1,num_classes),  replace=False)        # print(shared)
@@ -79,7 +79,7 @@ def create_user_data( user_id , num_users , reshaped_segments , labels , stdv  )
     for i in range(len(X)):
         print(len(X[i]))
         count+=len(X[i])
-    print('X的长度是',count)
+    print('The length of X is ',count)
     return X,Y
 
 def main():

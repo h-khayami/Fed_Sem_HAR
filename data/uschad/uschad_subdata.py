@@ -19,30 +19,30 @@ NUM_LABELS = 12
 
 def slide_window(array, w_s, stride):
     '''
-    滑窗处理
-    array: ---
-    w_s: 窗口大小
-    stride： 滑动步长
+    Sliding Window Processing
+    array: —
+    w_s: Window size
+    stride: Sliding step size
     '''
     x = []
     times = (array.shape[0] - w_s) // stride + 1
     i=0
     for i in range(times):
         x.append(array[stride*i: stride*i+w_s]) 
-    #最后一个保留处理 
+    # Keep the last one for processing
     if stride*i+w_s < array.shape[0]-1:
         x.append(array[-w_s:])
     return x
 
 def merge_data(path, w_s, stride):
     '''
-    所有数据按类别进行合并
-    path: 原始 USC_HAD 数据路径
-    w_s： 指定滑窗大小
-    stride： 指定步长
+    All data is merged by category  
+    path: Path to the original USC_HAD data  
+    w_s: Specifies the sliding window size  
+    stride: Specifies the step size  
     '''
-    result = [] # 12类，按索引放置每一类数据
-    '''对每一个数据进行滑窗处理，将滑窗后的数据按类别叠加合并放入result对应位置'''
+    result = [] # 12 categories, with each category’s data placed according to its index.
+    '''Each piece of data is processed using a sliding window. The processed data is then stacked and merged by category and placed in the corresponding position in the result.'''
     subject_list = os.listdir(path)
     subject_list = [ subject for subject in subject_list if subject.find('Subject')!=-1 ]
     os.chdir(path)
@@ -58,7 +58,7 @@ def merge_data(path, w_s, stride):
         os.chdir(subject)
 
         for mat in mat_list:
-            category = int(mat[1:-6])-1 #获取类别
+            category = int(mat[1:-6])-1 #Get category
             content = scio.loadmat(mat)['sensor_readings']
             
 
@@ -90,7 +90,7 @@ def main():
     parser.add_argument("--stdv", type=int, default=2, help="noise for choosing k shots and deleting n ways")
     parser.add_argument("--n_user", type=int, default=NUM_USERS,
                         help="number of local clients, should be muitiple of 10.")
-    parser.add_argument("--dataset_dir", type=str, default='/data1/experiment/chengdongzhou/data/raw/USC-HAD')
+    parser.add_argument("--dataset_dir", type=str, default='/data/har/raw/USC-HAD')
     parser.add_argument('--imbalance',action='store_true',default=False)
     parser.add_argument("--sample_size", type=int, default=256, help="Min number of samples per user.")
     args = parser.parse_args()
