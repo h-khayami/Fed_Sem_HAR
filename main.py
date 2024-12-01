@@ -79,6 +79,7 @@ if __name__ == "__main__":
     parser.add_argument('--vis_proto', action='store_true', default=False,
                         help='enables visualizing 2d features (default: False).')
     parser.add_argument('--imbalance', action='store_true', default=False)
+    parser.add_argument("--fine_epochs", type=int, default=1) # for fedHome only
     args = parser.parse_args()
     # get the subset of total numuers
     args.num_users = 1 if args.sampleratio == 0.0 else math.ceil( args.total_users * args.sampleratio )

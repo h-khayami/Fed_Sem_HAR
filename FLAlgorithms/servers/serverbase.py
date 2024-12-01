@@ -116,18 +116,18 @@ class Server:
 
     def save_model(self):
         if not self.not_save_res:
-            model_path = os.path.join("models", self.dataset)
+            model_path = os.path.join("models", self.dataset, self.algorithm)
             if not os.path.exists(model_path):
                 os.makedirs(model_path)
             torch.save(self.model, os.path.join(model_path, "server" + ".pt"))
 
     def load_model(self):
-        model_path = os.path.join("models", self.dataset, "server" + ".pt")
+        model_path = os.path.join("models", self.dataset,  self.algorithm, "server" + ".pt")
         assert (os.path.exists(model_path))
         self.model = torch.load(model_path)
 
     def model_exists(self):
-        return os.path.exists(os.path.join("models", self.dataset, "server" + ".pt"))
+        return os.path.exists(os.path.join("models", self.dataset,  self.algorithm, "server" + ".pt"))
 
 
     def plot_2d_features(self ,model , add_legend = True):
