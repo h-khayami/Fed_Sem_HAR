@@ -24,6 +24,7 @@ def setup_seed(seed):
 def main( times, gpu ):
     args.logging = loadLogger(args)
     args.device = torch.device("cuda:{}".format(gpu) if torch.cuda.is_available() and gpu != -1 else "cpu")
+    print ("selected device:", args.device)
     # allUserAcc = 0.0
     for i in range(times):
         # i=2
@@ -39,8 +40,8 @@ def main( times, gpu ):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     # save setting
-    parser.add_argument('--savelogging','--slog', default=False, action='store_true',
-                          help='If yes, only output log to terminal.')
+    parser.add_argument('--savelogging','--slog', default=True, action='store_true',
+                          help='If no, only output log to terminal.')
     parser.add_argument('--notsaveresult','--nsr', default=False, action='store_true',
                           help='The default value is saved.')
     parser.add_argument('--work_dir', default='./work_dir',

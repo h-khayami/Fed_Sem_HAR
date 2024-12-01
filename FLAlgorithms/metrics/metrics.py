@@ -101,11 +101,11 @@ def MMD(x, y, kernel, device='cpu'):
 
 
 def CosineSim(param1, param2):
-    #计算余弦相似度作为两个客户端之间的模型度量
+    #Calculate the cosine similarity as the model metric between two clients
     CosSim_score = torch.sum(param1*param2)/(torch.norm(param1)*torch.norm(param2)+1e-12)
     return CosSim_score
 def CosineDistance(param1, param2):
-    #计算余弦相似度作为两个客户端之间的模型度量
+    #Calculate the cosine similarity as the model metric between two clients
     CosSim_score = torch.sum(param1*param2)/(torch.norm(param1)*torch.norm(param2)+1e-12)
     return 1-CosSim_score
 
@@ -115,7 +115,7 @@ def flatten(source):
     return torch.cat([value.flatten() for value in source.parameters()])
 def cosine_similarities(self,model_1, model_2):
 
-    #计算余弦相似度作为两个客户端之间的模型度量
+    #Calculate the cosine similarity as the model metric between two clients
     model1 = self.flatten(model_1)
     model2 = self.flatten(model_2)
     cossin_score = torch.sum(model1*model2)/(torch.norm(model1)*torch.norm(model2)+1e-12)

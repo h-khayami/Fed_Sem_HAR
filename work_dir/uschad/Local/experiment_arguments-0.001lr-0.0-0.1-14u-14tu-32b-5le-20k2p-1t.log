@@ -1,0 +1,1518 @@
+[11-30 19:18]  Namespace(algorithm='Local', batch_size=32, beta=0.0, dataset='uschad', device=2, distance='MSE', fineturning_epochs=1, imbalance=False, lamda=0.1, learning_rate=0.001, local_epochs=5, max_grad_norm=100.0, model='cnn', momentum=0.9, niid='20k2p', notsaveresult=False, num_classes=20, num_global_iters=300, num_users=14, optimizer='SGD', personal_learning_rate=0.01, plocal_steps=1, sampleratio=1.0, savelogging=True, tau=0, times=1, total_users=14, vis=True, vis_proto=False, weighting=False, work_dir='./work_dir')
+[11-30 19:18]  ==>seed is 0
+[11-30 19:18]  
+
+         [ Start training iteration 0 ]           
+
+
+[11-30 19:18]  Users in total: 14
+[11-30 19:18]  Number of users / total users:14 / 14
+[11-30 19:18]  Finished creating Local server.
+[11-30 19:18]  -------------Round number:0 -------------
+[11-30 19:18]  Average Global Accurancy: 0.340602  |  Average Client Accurancy:    0.340791
+[11-30 19:18]  Average AUC Accurancy:    0.761382  |  Average F1-Score Accurancy:  0.261375
+[11-30 19:18]  Average Recall Accurancy: 0.334762  |  Average Precision Accurancy: 0.269003
+[11-30 19:18]  Average Train Accurancy:  0.570943  |  Average Train Loss:          6.581014
+[11-30 19:18]  -------------Round number:1 -------------
+[11-30 19:18]  Average Global Accurancy: 0.420561  |  Average Client Accurancy:    0.420720
+[11-30 19:18]  Average AUC Accurancy:    0.784530  |  Average F1-Score Accurancy:  0.355897
+[11-30 19:18]  Average Recall Accurancy: 0.399031  |  Average Precision Accurancy: 0.389909
+[11-30 19:18]  Average Train Accurancy:  0.711980  |  Average Train Loss:          5.243071
+[11-30 19:18]  -------------Round number:2 -------------
+[11-30 19:18]  Average Global Accurancy: 0.436137  |  Average Client Accurancy:    0.436363
+[11-30 19:18]  Average AUC Accurancy:    0.768793  |  Average F1-Score Accurancy:  0.372132
+[11-30 19:18]  Average Recall Accurancy: 0.398086  |  Average Precision Accurancy: 0.422974
+[11-30 19:18]  Average Train Accurancy:  0.806712  |  Average Train Loss:          4.559360
+[11-30 19:18]  -------------Round number:3 -------------
+[11-30 19:18]  Average Global Accurancy: 0.423676  |  Average Client Accurancy:    0.424224
+[11-30 19:18]  Average AUC Accurancy:    0.766528  |  Average F1-Score Accurancy:  0.379636
+[11-30 19:18]  Average Recall Accurancy: 0.394155  |  Average Precision Accurancy: 0.464397
+[11-30 19:18]  Average Train Accurancy:  0.837298  |  Average Train Loss:          4.287468
+[11-30 19:18]  -------------Round number:4 -------------
+[11-30 19:18]  Average Global Accurancy: 0.435099  |  Average Client Accurancy:    0.435421
+[11-30 19:18]  Average AUC Accurancy:    0.780023  |  Average F1-Score Accurancy:  0.382013
+[11-30 19:18]  Average Recall Accurancy: 0.406109  |  Average Precision Accurancy: 0.458787
+[11-30 19:18]  Average Train Accurancy:  0.852167  |  Average Train Loss:          3.588596
+[11-30 19:18]  -------------Round number:5 -------------
+[11-30 19:18]  Average Global Accurancy: 0.468328  |  Average Client Accurancy:    0.468207
+[11-30 19:18]  Average AUC Accurancy:    0.795430  |  Average F1-Score Accurancy:  0.399460
+[11-30 19:18]  Average Recall Accurancy: 0.431413  |  Average Precision Accurancy: 0.452452
+[11-30 19:18]  Average Train Accurancy:  0.838997  |  Average Train Loss:          3.769611
+[11-30 19:18]  -------------Round number:6 -------------
+[11-30 19:19]  Average Global Accurancy: 0.475597  |  Average Client Accurancy:    0.476202
+[11-30 19:19]  Average AUC Accurancy:    0.815277  |  Average F1-Score Accurancy:  0.426016
+[11-30 19:19]  Average Recall Accurancy: 0.445578  |  Average Precision Accurancy: 0.480352
+[11-30 19:19]  Average Train Accurancy:  0.859813  |  Average Train Loss:          4.082807
+[11-30 19:19]  -------------Round number:7 -------------
+[11-30 19:19]  Average Global Accurancy: 0.488058  |  Average Client Accurancy:    0.488596
+[11-30 19:19]  Average AUC Accurancy:    0.817816  |  Average F1-Score Accurancy:  0.430878
+[11-30 19:19]  Average Recall Accurancy: 0.455992  |  Average Precision Accurancy: 0.482071
+[11-30 19:19]  Average Train Accurancy:  0.869159  |  Average Train Loss:          2.853493
+[11-30 19:19]  -------------Round number:8 -------------
+[11-30 19:19]  Average Global Accurancy: 0.508827  |  Average Client Accurancy:    0.509186
+[11-30 19:19]  Average AUC Accurancy:    0.821130  |  Average F1-Score Accurancy:  0.461364
+[11-30 19:19]  Average Recall Accurancy: 0.480016  |  Average Precision Accurancy: 0.527966
+[11-30 19:19]  Average Train Accurancy:  0.894223  |  Average Train Loss:          1.984157
+[11-30 19:19]  -------------Round number:9 -------------
+[11-30 19:19]  Average Global Accurancy: 0.528557  |  Average Client Accurancy:    0.528822
+[11-30 19:19]  Average AUC Accurancy:    0.828599  |  Average F1-Score Accurancy:  0.477880
+[11-30 19:19]  Average Recall Accurancy: 0.496505  |  Average Precision Accurancy: 0.516437
+[11-30 19:19]  Average Train Accurancy:  0.922260  |  Average Train Loss:          1.674983
+[11-30 19:19]  -------------Round number:10 -------------
+[11-30 19:19]  Average Global Accurancy: 0.530633  |  Average Client Accurancy:    0.531240
+[11-30 19:19]  Average AUC Accurancy:    0.828008  |  Average F1-Score Accurancy:  0.478584
+[11-30 19:19]  Average Recall Accurancy: 0.499223  |  Average Precision Accurancy: 0.511345
+[11-30 19:19]  Average Train Accurancy:  0.940527  |  Average Train Loss:          1.339230
+[11-30 19:19]  -------------Round number:11 -------------
+[11-30 19:19]  Average Global Accurancy: 0.528557  |  Average Client Accurancy:    0.529126
+[11-30 19:19]  Average AUC Accurancy:    0.827070  |  Average F1-Score Accurancy:  0.477580
+[11-30 19:19]  Average Recall Accurancy: 0.497775  |  Average Precision Accurancy: 0.512909
+[11-30 19:19]  Average Train Accurancy:  0.952421  |  Average Train Loss:          1.091815
+[11-30 19:19]  -------------Round number:12 -------------
+[11-30 19:19]  Average Global Accurancy: 0.532710  |  Average Client Accurancy:    0.533110
+[11-30 19:19]  Average AUC Accurancy:    0.825298  |  Average F1-Score Accurancy:  0.480444
+[11-30 19:19]  Average Recall Accurancy: 0.500445  |  Average Precision Accurancy: 0.515954
+[11-30 19:19]  Average Train Accurancy:  0.962617  |  Average Train Loss:          0.778119
+[11-30 19:19]  -------------Round number:13 -------------
+[11-30 19:19]  Average Global Accurancy: 0.538941  |  Average Client Accurancy:    0.539351
+[11-30 19:19]  Average AUC Accurancy:    0.822384  |  Average F1-Score Accurancy:  0.486393
+[11-30 19:19]  Average Recall Accurancy: 0.507209  |  Average Precision Accurancy: 0.515380
+[11-30 19:19]  Average Train Accurancy:  0.968989  |  Average Train Loss:          0.673262
+[11-30 19:19]  -------------Round number:14 -------------
+[11-30 19:19]  Average Global Accurancy: 0.511942  |  Average Client Accurancy:    0.512607
+[11-30 19:19]  Average AUC Accurancy:    0.819086  |  Average F1-Score Accurancy:  0.464721
+[11-30 19:19]  Average Recall Accurancy: 0.483070  |  Average Precision Accurancy: 0.497427
+[11-30 19:19]  Average Train Accurancy:  0.935854  |  Average Train Loss:          1.918916
+[11-30 19:19]  -------------Round number:15 -------------
+[11-30 19:19]  Average Global Accurancy: 0.514019  |  Average Client Accurancy:    0.514604
+[11-30 19:19]  Average AUC Accurancy:    0.825301  |  Average F1-Score Accurancy:  0.457506
+[11-30 19:19]  Average Recall Accurancy: 0.483581  |  Average Precision Accurancy: 0.494522
+[11-30 19:19]  Average Train Accurancy:  0.942651  |  Average Train Loss:          1.496897
+[11-30 19:19]  -------------Round number:16 -------------
+[11-30 19:19]  Average Global Accurancy: 0.512980  |  Average Client Accurancy:    0.513672
+[11-30 19:19]  Average AUC Accurancy:    0.822320  |  Average F1-Score Accurancy:  0.458545
+[11-30 19:19]  Average Recall Accurancy: 0.483040  |  Average Precision Accurancy: 0.484077
+[11-30 19:19]  Average Train Accurancy:  0.951997  |  Average Train Loss:          1.366950
+[11-30 19:19]  -------------Round number:17 -------------
+[11-30 19:19]  Average Global Accurancy: 0.522326  |  Average Client Accurancy:    0.522825
+[11-30 19:19]  Average AUC Accurancy:    0.821620  |  Average F1-Score Accurancy:  0.470949
+[11-30 19:19]  Average Recall Accurancy: 0.491008  |  Average Precision Accurancy: 0.500008
+[11-30 19:19]  Average Train Accurancy:  0.976211  |  Average Train Loss:          0.778165
+[11-30 19:19]  -------------Round number:18 -------------
+[11-30 19:19]  Average Global Accurancy: 0.523364  |  Average Client Accurancy:    0.523818
+[11-30 19:19]  Average AUC Accurancy:    0.821310  |  Average F1-Score Accurancy:  0.476629
+[11-30 19:19]  Average Recall Accurancy: 0.492848  |  Average Precision Accurancy: 0.507603
+[11-30 19:19]  Average Train Accurancy:  0.978760  |  Average Train Loss:          0.555431
+[11-30 19:19]  -------------Round number:19 -------------
+[11-30 19:20]  Average Global Accurancy: 0.518172  |  Average Client Accurancy:    0.518871
+[11-30 19:20]  Average AUC Accurancy:    0.820866  |  Average F1-Score Accurancy:  0.468613
+[11-30 19:20]  Average Recall Accurancy: 0.488428  |  Average Precision Accurancy: 0.496978
+[11-30 19:20]  Average Train Accurancy:  0.984707  |  Average Train Loss:          0.642405
+[11-30 19:20]  -------------Round number:20 -------------
+[11-30 19:20]  Average Global Accurancy: 0.507788  |  Average Client Accurancy:    0.508492
+[11-30 19:20]  Average AUC Accurancy:    0.816504  |  Average F1-Score Accurancy:  0.464596
+[11-30 19:20]  Average Recall Accurancy: 0.479901  |  Average Precision Accurancy: 0.492629
+[11-30 19:20]  Average Train Accurancy:  0.988530  |  Average Train Loss:          0.393630
+[11-30 19:20]  -------------Round number:21 -------------
+[11-30 19:20]  Average Global Accurancy: 0.514019  |  Average Client Accurancy:    0.514503
+[11-30 19:20]  Average AUC Accurancy:    0.818201  |  Average F1-Score Accurancy:  0.469734
+[11-30 19:20]  Average Recall Accurancy: 0.485471  |  Average Precision Accurancy: 0.499541
+[11-30 19:20]  Average Train Accurancy:  0.988105  |  Average Train Loss:          0.336994
+[11-30 19:20]  -------------Round number:22 -------------
+[11-30 19:20]  Average Global Accurancy: 0.510903  |  Average Client Accurancy:    0.511428
+[11-30 19:20]  Average AUC Accurancy:    0.820623  |  Average F1-Score Accurancy:  0.463572
+[11-30 19:20]  Average Recall Accurancy: 0.483974  |  Average Precision Accurancy: 0.496027
+[11-30 19:20]  Average Train Accurancy:  0.985132  |  Average Train Loss:          0.366942
+[11-30 19:20]  -------------Round number:23 -------------
+[11-30 19:20]  Average Global Accurancy: 0.503634  |  Average Client Accurancy:    0.504149
+[11-30 19:20]  Average AUC Accurancy:    0.813606  |  Average F1-Score Accurancy:  0.453829
+[11-30 19:20]  Average Recall Accurancy: 0.475909  |  Average Precision Accurancy: 0.486917
+[11-30 19:20]  Average Train Accurancy:  0.970688  |  Average Train Loss:          1.169630
+[11-30 19:20]  -------------Round number:24 -------------
+[11-30 19:20]  Average Global Accurancy: 0.520249  |  Average Client Accurancy:    0.520620
+[11-30 19:20]  Average AUC Accurancy:    0.819531  |  Average F1-Score Accurancy:  0.478003
+[11-30 19:20]  Average Recall Accurancy: 0.493023  |  Average Precision Accurancy: 0.519140
+[11-30 19:20]  Average Train Accurancy:  0.981308  |  Average Train Loss:          0.401596
+[11-30 19:20]  -------------Round number:25 -------------
+[11-30 19:20]  Average Global Accurancy: 0.527518  |  Average Client Accurancy:    0.527742
+[11-30 19:20]  Average AUC Accurancy:    0.820356  |  Average F1-Score Accurancy:  0.483216
+[11-30 19:20]  Average Recall Accurancy: 0.501107  |  Average Precision Accurancy: 0.515349
+[11-30 19:20]  Average Train Accurancy:  0.985556  |  Average Train Loss:          0.306794
+[11-30 19:20]  -------------Round number:26 -------------
+[11-30 19:20]  Average Global Accurancy: 0.518172  |  Average Client Accurancy:    0.518377
+[11-30 19:20]  Average AUC Accurancy:    0.818046  |  Average F1-Score Accurancy:  0.477253
+[11-30 19:20]  Average Recall Accurancy: 0.493170  |  Average Precision Accurancy: 0.514886
+[11-30 19:20]  Average Train Accurancy:  0.991504  |  Average Train Loss:          0.239592
+[11-30 19:20]  -------------Round number:27 -------------
+[11-30 19:20]  Average Global Accurancy: 0.512980  |  Average Client Accurancy:    0.513165
+[11-30 19:20]  Average AUC Accurancy:    0.816101  |  Average F1-Score Accurancy:  0.472564
+[11-30 19:20]  Average Recall Accurancy: 0.489708  |  Average Precision Accurancy: 0.512841
+[11-30 19:20]  Average Train Accurancy:  0.993628  |  Average Train Loss:          0.195777
+[11-30 19:20]  -------------Round number:28 -------------
+[11-30 19:20]  Average Global Accurancy: 0.515057  |  Average Client Accurancy:    0.515240
+[11-30 19:20]  Average AUC Accurancy:    0.814525  |  Average F1-Score Accurancy:  0.475502
+[11-30 19:20]  Average Recall Accurancy: 0.490894  |  Average Precision Accurancy: 0.515499
+[11-30 19:20]  Average Train Accurancy:  0.991504  |  Average Train Loss:          0.169247
+[11-30 19:20]  -------------Round number:29 -------------
+[11-30 19:20]  Average Global Accurancy: 0.507788  |  Average Client Accurancy:    0.507954
+[11-30 19:20]  Average AUC Accurancy:    0.813404  |  Average F1-Score Accurancy:  0.470248
+[11-30 19:20]  Average Recall Accurancy: 0.484315  |  Average Precision Accurancy: 0.512680
+[11-30 19:20]  Average Train Accurancy:  0.996602  |  Average Train Loss:          0.154491
+[11-30 19:20]  -------------Round number:30 -------------
+[11-30 19:20]  Average Global Accurancy: 0.506750  |  Average Client Accurancy:    0.506971
+[11-30 19:20]  Average AUC Accurancy:    0.812056  |  Average F1-Score Accurancy:  0.469452
+[11-30 19:20]  Average Recall Accurancy: 0.484187  |  Average Precision Accurancy: 0.512912
+[11-30 19:20]  Average Train Accurancy:  0.994902  |  Average Train Loss:          0.122861
+[11-30 19:20]  -------------Round number:31 -------------
+[11-30 19:20]  Average Global Accurancy: 0.497404  |  Average Client Accurancy:    0.497730
+[11-30 19:20]  Average AUC Accurancy:    0.811220  |  Average F1-Score Accurancy:  0.461470
+[11-30 19:20]  Average Recall Accurancy: 0.474523  |  Average Precision Accurancy: 0.505973
+[11-30 19:20]  Average Train Accurancy:  0.997451  |  Average Train Loss:          0.113201
+[11-30 19:20]  -------------Round number:32 -------------
+[11-30 19:20]  Average Global Accurancy: 0.492212  |  Average Client Accurancy:    0.492523
+[11-30 19:20]  Average AUC Accurancy:    0.810255  |  Average F1-Score Accurancy:  0.456727
+[11-30 19:20]  Average Recall Accurancy: 0.469682  |  Average Precision Accurancy: 0.500376
+[11-30 19:20]  Average Train Accurancy:  0.997026  |  Average Train Loss:          0.095599
+[11-30 19:20]  -------------Round number:33 -------------
+[11-30 19:21]  Average Global Accurancy: 0.491173  |  Average Client Accurancy:    0.491453
+[11-30 19:21]  Average AUC Accurancy:    0.809870  |  Average F1-Score Accurancy:  0.456148
+[11-30 19:21]  Average Recall Accurancy: 0.469725  |  Average Precision Accurancy: 0.499815
+[11-30 19:21]  Average Train Accurancy:  0.996177  |  Average Train Loss:          0.093008
+[11-30 19:21]  -------------Round number:34 -------------
+[11-30 19:21]  Average Global Accurancy: 0.489097  |  Average Client Accurancy:    0.489484
+[11-30 19:21]  Average AUC Accurancy:    0.808927  |  Average F1-Score Accurancy:  0.456403
+[11-30 19:21]  Average Recall Accurancy: 0.467926  |  Average Precision Accurancy: 0.505232
+[11-30 19:21]  Average Train Accurancy:  0.997026  |  Average Train Loss:          0.079577
+[11-30 19:21]  -------------Round number:35 -------------
+[11-30 19:21]  Average Global Accurancy: 0.487020  |  Average Client Accurancy:    0.487491
+[11-30 19:21]  Average AUC Accurancy:    0.808044  |  Average F1-Score Accurancy:  0.449848
+[11-30 19:21]  Average Recall Accurancy: 0.462579  |  Average Precision Accurancy: 0.496527
+[11-30 19:21]  Average Train Accurancy:  0.997451  |  Average Train Loss:          0.076945
+[11-30 19:21]  -------------Round number:36 -------------
+[11-30 19:21]  Average Global Accurancy: 0.489097  |  Average Client Accurancy:    0.489469
+[11-30 19:21]  Average AUC Accurancy:    0.807773  |  Average F1-Score Accurancy:  0.455029
+[11-30 19:21]  Average Recall Accurancy: 0.466665  |  Average Precision Accurancy: 0.500072
+[11-30 19:21]  Average Train Accurancy:  0.997876  |  Average Train Loss:          0.055412
+[11-30 19:21]  -------------Round number:37 -------------
+[11-30 19:21]  Average Global Accurancy: 0.483904  |  Average Client Accurancy:    0.484299
+[11-30 19:21]  Average AUC Accurancy:    0.807075  |  Average F1-Score Accurancy:  0.449531
+[11-30 19:21]  Average Recall Accurancy: 0.460703  |  Average Precision Accurancy: 0.496942
+[11-30 19:21]  Average Train Accurancy:  0.998726  |  Average Train Loss:          0.051191
+[11-30 19:21]  -------------Round number:38 -------------
+[11-30 19:21]  Average Global Accurancy: 0.487020  |  Average Client Accurancy:    0.487419
+[11-30 19:21]  Average AUC Accurancy:    0.806556  |  Average F1-Score Accurancy:  0.452838
+[11-30 19:21]  Average Recall Accurancy: 0.463580  |  Average Precision Accurancy: 0.499565
+[11-30 19:21]  Average Train Accurancy:  0.999575  |  Average Train Loss:          0.046831
+[11-30 19:21]  -------------Round number:39 -------------
+[11-30 19:21]  Average Global Accurancy: 0.482866  |  Average Client Accurancy:    0.483287
+[11-30 19:21]  Average AUC Accurancy:    0.806274  |  Average F1-Score Accurancy:  0.448102
+[11-30 19:21]  Average Recall Accurancy: 0.458700  |  Average Precision Accurancy: 0.494547
+[11-30 19:21]  Average Train Accurancy:  0.999575  |  Average Train Loss:          0.040411
+[11-30 19:21]  -------------Round number:40 -------------
+[11-30 19:21]  Average Global Accurancy: 0.484943  |  Average Client Accurancy:    0.485383
+[11-30 19:21]  Average AUC Accurancy:    0.805911  |  Average F1-Score Accurancy:  0.449878
+[11-30 19:21]  Average Recall Accurancy: 0.460428  |  Average Precision Accurancy: 0.496815
+[11-30 19:21]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.034239
+[11-30 19:21]  -------------Round number:41 -------------
+[11-30 19:21]  Average Global Accurancy: 0.482866  |  Average Client Accurancy:    0.483303
+[11-30 19:21]  Average AUC Accurancy:    0.805445  |  Average F1-Score Accurancy:  0.448689
+[11-30 19:21]  Average Recall Accurancy: 0.458399  |  Average Precision Accurancy: 0.496553
+[11-30 19:21]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.030411
+[11-30 19:21]  -------------Round number:42 -------------
+[11-30 19:21]  Average Global Accurancy: 0.482866  |  Average Client Accurancy:    0.483307
+[11-30 19:21]  Average AUC Accurancy:    0.805106  |  Average F1-Score Accurancy:  0.447710
+[11-30 19:21]  Average Recall Accurancy: 0.458647  |  Average Precision Accurancy: 0.493604
+[11-30 19:21]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.029059
+[11-30 19:21]  -------------Round number:43 -------------
+[11-30 19:21]  Average Global Accurancy: 0.482866  |  Average Client Accurancy:    0.483357
+[11-30 19:21]  Average AUC Accurancy:    0.806822  |  Average F1-Score Accurancy:  0.448251
+[11-30 19:21]  Average Recall Accurancy: 0.458136  |  Average Precision Accurancy: 0.501256
+[11-30 19:21]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.025350
+[11-30 19:21]  -------------Round number:44 -------------
+[11-30 19:21]  Average Global Accurancy: 0.477674  |  Average Client Accurancy:    0.478160
+[11-30 19:21]  Average AUC Accurancy:    0.806419  |  Average F1-Score Accurancy:  0.444241
+[11-30 19:21]  Average Recall Accurancy: 0.453135  |  Average Precision Accurancy: 0.498606
+[11-30 19:21]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.023369
+[11-30 19:21]  -------------Round number:45 -------------
+[11-30 19:21]  Average Global Accurancy: 0.477674  |  Average Client Accurancy:    0.478151
+[11-30 19:21]  Average AUC Accurancy:    0.806013  |  Average F1-Score Accurancy:  0.442747
+[11-30 19:21]  Average Recall Accurancy: 0.452867  |  Average Precision Accurancy: 0.491681
+[11-30 19:21]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.023799
+[11-30 19:21]  -------------Round number:46 -------------
+[11-30 19:21]  Average Global Accurancy: 0.476636  |  Average Client Accurancy:    0.477155
+[11-30 19:21]  Average AUC Accurancy:    0.805675  |  Average F1-Score Accurancy:  0.442131
+[11-30 19:21]  Average Recall Accurancy: 0.451386  |  Average Precision Accurancy: 0.491763
+[11-30 19:21]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.021139
+[11-30 19:21]  -------------Round number:47 -------------
+[11-30 19:22]  Average Global Accurancy: 0.476636  |  Average Client Accurancy:    0.477121
+[11-30 19:22]  Average AUC Accurancy:    0.805382  |  Average F1-Score Accurancy:  0.441623
+[11-30 19:22]  Average Recall Accurancy: 0.451529  |  Average Precision Accurancy: 0.490530
+[11-30 19:22]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.019251
+[11-30 19:22]  -------------Round number:48 -------------
+[11-30 19:22]  Average Global Accurancy: 0.475597  |  Average Client Accurancy:    0.476090
+[11-30 19:22]  Average AUC Accurancy:    0.805005  |  Average F1-Score Accurancy:  0.440875
+[11-30 19:22]  Average Recall Accurancy: 0.450600  |  Average Precision Accurancy: 0.490214
+[11-30 19:22]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.017841
+[11-30 19:22]  -------------Round number:49 -------------
+[11-30 19:22]  Average Global Accurancy: 0.473520  |  Average Client Accurancy:    0.474031
+[11-30 19:22]  Average AUC Accurancy:    0.804738  |  Average F1-Score Accurancy:  0.438271
+[11-30 19:22]  Average Recall Accurancy: 0.448428  |  Average Precision Accurancy: 0.488795
+[11-30 19:22]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.016678
+[11-30 19:22]  -------------Round number:50 -------------
+[11-30 19:22]  Average Global Accurancy: 0.475597  |  Average Client Accurancy:    0.476137
+[11-30 19:22]  Average AUC Accurancy:    0.804547  |  Average F1-Score Accurancy:  0.438146
+[11-30 19:22]  Average Recall Accurancy: 0.449840  |  Average Precision Accurancy: 0.484931
+[11-30 19:22]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.015414
+[11-30 19:22]  -------------Round number:51 -------------
+[11-30 19:22]  Average Global Accurancy: 0.472482  |  Average Client Accurancy:    0.472977
+[11-30 19:22]  Average AUC Accurancy:    0.804537  |  Average F1-Score Accurancy:  0.436001
+[11-30 19:22]  Average Recall Accurancy: 0.447156  |  Average Precision Accurancy: 0.485344
+[11-30 19:22]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.016437
+[11-30 19:22]  -------------Round number:52 -------------
+[11-30 19:22]  Average Global Accurancy: 0.473520  |  Average Client Accurancy:    0.474033
+[11-30 19:22]  Average AUC Accurancy:    0.804238  |  Average F1-Score Accurancy:  0.436952
+[11-30 19:22]  Average Recall Accurancy: 0.447954  |  Average Precision Accurancy: 0.486077
+[11-30 19:22]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.015131
+[11-30 19:22]  -------------Round number:53 -------------
+[11-30 19:22]  Average Global Accurancy: 0.472482  |  Average Client Accurancy:    0.473015
+[11-30 19:22]  Average AUC Accurancy:    0.804042  |  Average F1-Score Accurancy:  0.435653
+[11-30 19:22]  Average Recall Accurancy: 0.446807  |  Average Precision Accurancy: 0.484778
+[11-30 19:22]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.013955
+[11-30 19:22]  -------------Round number:54 -------------
+[11-30 19:22]  Average Global Accurancy: 0.471443  |  Average Client Accurancy:    0.471975
+[11-30 19:22]  Average AUC Accurancy:    0.803797  |  Average F1-Score Accurancy:  0.434982
+[11-30 19:22]  Average Recall Accurancy: 0.445793  |  Average Precision Accurancy: 0.484293
+[11-30 19:22]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.013716
+[11-30 19:22]  -------------Round number:55 -------------
+[11-30 19:22]  Average Global Accurancy: 0.471443  |  Average Client Accurancy:    0.471975
+[11-30 19:22]  Average AUC Accurancy:    0.803650  |  Average F1-Score Accurancy:  0.435547
+[11-30 19:22]  Average Recall Accurancy: 0.445793  |  Average Precision Accurancy: 0.485922
+[11-30 19:22]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.012617
+[11-30 19:22]  -------------Round number:56 -------------
+[11-30 19:22]  Average Global Accurancy: 0.470405  |  Average Client Accurancy:    0.470930
+[11-30 19:22]  Average AUC Accurancy:    0.803581  |  Average F1-Score Accurancy:  0.434697
+[11-30 19:22]  Average Recall Accurancy: 0.444719  |  Average Precision Accurancy: 0.485031
+[11-30 19:22]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.012118
+[11-30 19:22]  -------------Round number:57 -------------
+[11-30 19:22]  Average Global Accurancy: 0.470405  |  Average Client Accurancy:    0.470930
+[11-30 19:22]  Average AUC Accurancy:    0.803391  |  Average F1-Score Accurancy:  0.434849
+[11-30 19:22]  Average Recall Accurancy: 0.444719  |  Average Precision Accurancy: 0.486375
+[11-30 19:22]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.011228
+[11-30 19:22]  -------------Round number:58 -------------
+[11-30 19:22]  Average Global Accurancy: 0.472482  |  Average Client Accurancy:    0.473011
+[11-30 19:22]  Average AUC Accurancy:    0.803801  |  Average F1-Score Accurancy:  0.435783
+[11-30 19:22]  Average Recall Accurancy: 0.446471  |  Average Precision Accurancy: 0.487149
+[11-30 19:22]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.011285
+[11-30 19:22]  -------------Round number:59 -------------
+[11-30 19:22]  Average Global Accurancy: 0.472482  |  Average Client Accurancy:    0.473011
+[11-30 19:22]  Average AUC Accurancy:    0.803484  |  Average F1-Score Accurancy:  0.436674
+[11-30 19:22]  Average Recall Accurancy: 0.446642  |  Average Precision Accurancy: 0.488396
+[11-30 19:22]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.010082
+[11-30 19:22]  -------------Round number:60 -------------
+[11-30 19:23]  Average Global Accurancy: 0.471443  |  Average Client Accurancy:    0.471971
+[11-30 19:23]  Average AUC Accurancy:    0.803322  |  Average F1-Score Accurancy:  0.435835
+[11-30 19:23]  Average Recall Accurancy: 0.445745  |  Average Precision Accurancy: 0.486769
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.009598
+[11-30 19:23]  -------------Round number:61 -------------
+[11-30 19:23]  Average Global Accurancy: 0.470405  |  Average Client Accurancy:    0.470905
+[11-30 19:23]  Average AUC Accurancy:    0.803142  |  Average F1-Score Accurancy:  0.434794
+[11-30 19:23]  Average Recall Accurancy: 0.444697  |  Average Precision Accurancy: 0.485979
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.009349
+[11-30 19:23]  -------------Round number:62 -------------
+[11-30 19:23]  Average Global Accurancy: 0.469367  |  Average Client Accurancy:    0.469865
+[11-30 19:23]  Average AUC Accurancy:    0.802991  |  Average F1-Score Accurancy:  0.434326
+[11-30 19:23]  Average Recall Accurancy: 0.443538  |  Average Precision Accurancy: 0.486370
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.008473
+[11-30 19:23]  -------------Round number:63 -------------
+[11-30 19:23]  Average Global Accurancy: 0.468328  |  Average Client Accurancy:    0.468824
+[11-30 19:23]  Average AUC Accurancy:    0.802830  |  Average F1-Score Accurancy:  0.433475
+[11-30 19:23]  Average Recall Accurancy: 0.442512  |  Average Precision Accurancy: 0.485873
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.008904
+[11-30 19:23]  -------------Round number:64 -------------
+[11-30 19:23]  Average Global Accurancy: 0.466251  |  Average Client Accurancy:    0.466755
+[11-30 19:23]  Average AUC Accurancy:    0.802662  |  Average F1-Score Accurancy:  0.430735
+[11-30 19:23]  Average Recall Accurancy: 0.440015  |  Average Precision Accurancy: 0.483568
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.008340
+[11-30 19:23]  -------------Round number:65 -------------
+[11-30 19:23]  Average Global Accurancy: 0.466251  |  Average Client Accurancy:    0.466755
+[11-30 19:23]  Average AUC Accurancy:    0.802579  |  Average F1-Score Accurancy:  0.431428
+[11-30 19:23]  Average Recall Accurancy: 0.440015  |  Average Precision Accurancy: 0.484602
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.008177
+[11-30 19:23]  -------------Round number:66 -------------
+[11-30 19:23]  Average Global Accurancy: 0.465213  |  Average Client Accurancy:    0.465686
+[11-30 19:23]  Average AUC Accurancy:    0.802517  |  Average F1-Score Accurancy:  0.430074
+[11-30 19:23]  Average Recall Accurancy: 0.439160  |  Average Precision Accurancy: 0.482930
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.007179
+[11-30 19:23]  -------------Round number:67 -------------
+[11-30 19:23]  Average Global Accurancy: 0.466251  |  Average Client Accurancy:    0.466755
+[11-30 19:23]  Average AUC Accurancy:    0.802396  |  Average F1-Score Accurancy:  0.431479
+[11-30 19:23]  Average Recall Accurancy: 0.440015  |  Average Precision Accurancy: 0.484689
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.007791
+[11-30 19:23]  -------------Round number:68 -------------
+[11-30 19:23]  Average Global Accurancy: 0.465213  |  Average Client Accurancy:    0.465686
+[11-30 19:23]  Average AUC Accurancy:    0.802349  |  Average F1-Score Accurancy:  0.430570
+[11-30 19:23]  Average Recall Accurancy: 0.439160  |  Average Precision Accurancy: 0.484252
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.006819
+[11-30 19:23]  -------------Round number:69 -------------
+[11-30 19:23]  Average Global Accurancy: 0.464174  |  Average Client Accurancy:    0.464620
+[11-30 19:23]  Average AUC Accurancy:    0.802295  |  Average F1-Score Accurancy:  0.429662
+[11-30 19:23]  Average Recall Accurancy: 0.438374  |  Average Precision Accurancy: 0.483418
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.006739
+[11-30 19:23]  -------------Round number:70 -------------
+[11-30 19:23]  Average Global Accurancy: 0.465213  |  Average Client Accurancy:    0.465686
+[11-30 19:23]  Average AUC Accurancy:    0.802250  |  Average F1-Score Accurancy:  0.430186
+[11-30 19:23]  Average Recall Accurancy: 0.439160  |  Average Precision Accurancy: 0.483295
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.006705
+[11-30 19:23]  -------------Round number:71 -------------
+[11-30 19:23]  Average Global Accurancy: 0.466251  |  Average Client Accurancy:    0.466718
+[11-30 19:23]  Average AUC Accurancy:    0.802200  |  Average F1-Score Accurancy:  0.431046
+[11-30 19:23]  Average Recall Accurancy: 0.439972  |  Average Precision Accurancy: 0.484587
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.006307
+[11-30 19:23]  -------------Round number:72 -------------
+[11-30 19:23]  Average Global Accurancy: 0.466251  |  Average Client Accurancy:    0.466718
+[11-30 19:23]  Average AUC Accurancy:    0.802094  |  Average F1-Score Accurancy:  0.430707
+[11-30 19:23]  Average Recall Accurancy: 0.439972  |  Average Precision Accurancy: 0.483697
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.006144
+[11-30 19:23]  -------------Round number:73 -------------
+[11-30 19:23]  Average Global Accurancy: 0.466251  |  Average Client Accurancy:    0.466718
+[11-30 19:23]  Average AUC Accurancy:    0.802048  |  Average F1-Score Accurancy:  0.431098
+[11-30 19:23]  Average Recall Accurancy: 0.439972  |  Average Precision Accurancy: 0.484674
+[11-30 19:23]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.005763
+[11-30 19:23]  -------------Round number:74 -------------
+[11-30 19:24]  Average Global Accurancy: 0.465213  |  Average Client Accurancy:    0.465649
+[11-30 19:24]  Average AUC Accurancy:    0.801983  |  Average F1-Score Accurancy:  0.428917
+[11-30 19:24]  Average Recall Accurancy: 0.438263  |  Average Precision Accurancy: 0.481518
+[11-30 19:24]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.005658
+[11-30 19:24]  -------------Round number:75 -------------
+[11-30 19:24]  Average Global Accurancy: 0.464174  |  Average Client Accurancy:    0.464584
+[11-30 19:24]  Average AUC Accurancy:    0.801978  |  Average F1-Score Accurancy:  0.428539
+[11-30 19:24]  Average Recall Accurancy: 0.437477  |  Average Precision Accurancy: 0.482259
+[11-30 19:24]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.005726
+[11-30 19:24]  -------------Round number:76 -------------
+[11-30 19:24]  Average Global Accurancy: 0.464174  |  Average Client Accurancy:    0.464584
+[11-30 19:24]  Average AUC Accurancy:    0.801931  |  Average F1-Score Accurancy:  0.428365
+[11-30 19:24]  Average Recall Accurancy: 0.437477  |  Average Precision Accurancy: 0.481643
+[11-30 19:24]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.005660
+[11-30 19:24]  -------------Round number:77 -------------
+[11-30 19:24]  Average Global Accurancy: 0.464174  |  Average Client Accurancy:    0.464638
+[11-30 19:24]  Average AUC Accurancy:    0.801890  |  Average F1-Score Accurancy:  0.428414
+[11-30 19:24]  Average Recall Accurancy: 0.437285  |  Average Precision Accurancy: 0.481558
+[11-30 19:24]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.005104
+[11-30 19:24]  -------------Round number:78 -------------
+[11-30 19:24]  Average Global Accurancy: 0.464174  |  Average Client Accurancy:    0.464584
+[11-30 19:24]  Average AUC Accurancy:    0.801767  |  Average F1-Score Accurancy:  0.428763
+[11-30 19:24]  Average Recall Accurancy: 0.437477  |  Average Precision Accurancy: 0.482640
+[11-30 19:24]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.005259
+[11-30 19:24]  -------------Round number:79 -------------
+[11-30 19:24]  Average Global Accurancy: 0.463136  |  Average Client Accurancy:    0.463573
+[11-30 19:24]  Average AUC Accurancy:    0.801819  |  Average F1-Score Accurancy:  0.427454
+[11-30 19:24]  Average Recall Accurancy: 0.436500  |  Average Precision Accurancy: 0.480562
+[11-30 19:24]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.004737
+[11-30 19:24]  -------------Round number:80 -------------
+[11-30 19:24]  Average Global Accurancy: 0.463136  |  Average Client Accurancy:    0.463573
+[11-30 19:24]  Average AUC Accurancy:    0.801731  |  Average F1-Score Accurancy:  0.427793
+[11-30 19:24]  Average Recall Accurancy: 0.436500  |  Average Precision Accurancy: 0.481452
+[11-30 19:24]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.004885
+[11-30 19:24]  -------------Round number:81 -------------
+[11-30 19:24]  Average Global Accurancy: 0.463136  |  Average Client Accurancy:    0.463573
+[11-30 19:24]  Average AUC Accurancy:    0.801661  |  Average F1-Score Accurancy:  0.427793
+[11-30 19:24]  Average Recall Accurancy: 0.436500  |  Average Precision Accurancy: 0.481452
+[11-30 19:24]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.004667
+[11-30 19:24]  -------------Round number:82 -------------
+[11-30 19:24]  Average Global Accurancy: 0.464174  |  Average Client Accurancy:    0.464604
+[11-30 19:24]  Average AUC Accurancy:    0.801602  |  Average F1-Score Accurancy:  0.429446
+[11-30 19:24]  Average Recall Accurancy: 0.437583  |  Average Precision Accurancy: 0.481847
+[11-30 19:24]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.004563
+[11-30 19:24]  -------------Round number:83 -------------
+[11-30 19:24]  Average Global Accurancy: 0.464174  |  Average Client Accurancy:    0.464604
+[11-30 19:24]  Average AUC Accurancy:    0.801597  |  Average F1-Score Accurancy:  0.429668
+[11-30 19:24]  Average Recall Accurancy: 0.437583  |  Average Precision Accurancy: 0.483117
+[11-30 19:24]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.004240
+[11-30 19:24]  -------------Round number:84 -------------
+[11-30 19:24]  Average Global Accurancy: 0.465213  |  Average Client Accurancy:    0.465673
+[11-30 19:24]  Average AUC Accurancy:    0.801528  |  Average F1-Score Accurancy:  0.430252
+[11-30 19:24]  Average Recall Accurancy: 0.438438  |  Average Precision Accurancy: 0.483208
+[11-30 19:24]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.004128
+[11-30 19:24]  -------------Round number:85 -------------
+[11-30 19:24]  Average Global Accurancy: 0.464174  |  Average Client Accurancy:    0.464629
+[11-30 19:24]  Average AUC Accurancy:    0.801530  |  Average F1-Score Accurancy:  0.429918
+[11-30 19:24]  Average Recall Accurancy: 0.437602  |  Average Precision Accurancy: 0.483017
+[11-30 19:24]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.004081
+[11-30 19:24]  -------------Round number:86 -------------
+[11-30 19:24]  Average Global Accurancy: 0.463136  |  Average Client Accurancy:    0.463560
+[11-30 19:24]  Average AUC Accurancy:    0.801511  |  Average F1-Score Accurancy:  0.428965
+[11-30 19:24]  Average Recall Accurancy: 0.436747  |  Average Precision Accurancy: 0.482365
+[11-30 19:24]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.004290
+[11-30 19:24]  -------------Round number:87 -------------
+[11-30 19:25]  Average Global Accurancy: 0.462098  |  Average Client Accurancy:    0.462504
+[11-30 19:25]  Average AUC Accurancy:    0.801450  |  Average F1-Score Accurancy:  0.427561
+[11-30 19:25]  Average Recall Accurancy: 0.435551  |  Average Precision Accurancy: 0.480769
+[11-30 19:25]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.003879
+[11-30 19:25]  -------------Round number:88 -------------
+[11-30 19:25]  Average Global Accurancy: 0.462098  |  Average Client Accurancy:    0.462504
+[11-30 19:25]  Average AUC Accurancy:    0.801427  |  Average F1-Score Accurancy:  0.427485
+[11-30 19:25]  Average Recall Accurancy: 0.435551  |  Average Precision Accurancy: 0.480702
+[11-30 19:25]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.003997
+[11-30 19:25]  -------------Round number:89 -------------
+[11-30 19:25]  Average Global Accurancy: 0.463136  |  Average Client Accurancy:    0.463560
+[11-30 19:25]  Average AUC Accurancy:    0.801418  |  Average F1-Score Accurancy:  0.428899
+[11-30 19:25]  Average Recall Accurancy: 0.436747  |  Average Precision Accurancy: 0.482377
+[11-30 19:25]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.004126
+[11-30 19:25]  -------------Round number:90 -------------
+[11-30 19:25]  Average Global Accurancy: 0.463136  |  Average Client Accurancy:    0.463560
+[11-30 19:25]  Average AUC Accurancy:    0.801380  |  Average F1-Score Accurancy:  0.428848
+[11-30 19:25]  Average Recall Accurancy: 0.436747  |  Average Precision Accurancy: 0.482290
+[11-30 19:25]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.003746
+[11-30 19:25]  -------------Round number:91 -------------
+[11-30 19:25]  Average Global Accurancy: 0.463136  |  Average Client Accurancy:    0.463560
+[11-30 19:25]  Average AUC Accurancy:    0.801352  |  Average F1-Score Accurancy:  0.428975
+[11-30 19:25]  Average Recall Accurancy: 0.436747  |  Average Precision Accurancy: 0.482444
+[11-30 19:25]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.003563
+[11-30 19:25]  -------------Round number:92 -------------
+[11-30 19:25]  Average Global Accurancy: 0.460021  |  Average Client Accurancy:    0.460437
+[11-30 19:25]  Average AUC Accurancy:    0.801282  |  Average F1-Score Accurancy:  0.426096
+[11-30 19:25]  Average Recall Accurancy: 0.433613  |  Average Precision Accurancy: 0.479372
+[11-30 19:25]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.003420
+[11-30 19:25]  -------------Round number:93 -------------
+[11-30 19:25]  Average Global Accurancy: 0.460021  |  Average Client Accurancy:    0.460437
+[11-30 19:25]  Average AUC Accurancy:    0.801274  |  Average F1-Score Accurancy:  0.426096
+[11-30 19:25]  Average Recall Accurancy: 0.433613  |  Average Precision Accurancy: 0.479372
+[11-30 19:25]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.003399
+[11-30 19:25]  -------------Round number:94 -------------
+[11-30 19:25]  Average Global Accurancy: 0.460021  |  Average Client Accurancy:    0.460437
+[11-30 19:25]  Average AUC Accurancy:    0.801231  |  Average F1-Score Accurancy:  0.426148
+[11-30 19:25]  Average Recall Accurancy: 0.433613  |  Average Precision Accurancy: 0.479459
+[11-30 19:25]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.003447
+[11-30 19:25]  -------------Round number:95 -------------
+[11-30 19:25]  Average Global Accurancy: 0.462098  |  Average Client Accurancy:    0.462533
+[11-30 19:25]  Average AUC Accurancy:    0.801209  |  Average F1-Score Accurancy:  0.428320
+[11-30 19:25]  Average Recall Accurancy: 0.435823  |  Average Precision Accurancy: 0.481726
+[11-30 19:25]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.003340
+[11-30 19:25]  -------------Round number:96 -------------
+[11-30 19:25]  Average Global Accurancy: 0.461059  |  Average Client Accurancy:    0.461493
+[11-30 19:25]  Average AUC Accurancy:    0.801193  |  Average F1-Score Accurancy:  0.427610
+[11-30 19:25]  Average Recall Accurancy: 0.434809  |  Average Precision Accurancy: 0.481380
+[11-30 19:25]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.003251
+[11-30 19:25]  -------------Round number:97 -------------
+[11-30 19:25]  Average Global Accurancy: 0.462098  |  Average Client Accurancy:    0.462532
+[11-30 19:25]  Average AUC Accurancy:    0.801151  |  Average F1-Score Accurancy:  0.428716
+[11-30 19:25]  Average Recall Accurancy: 0.435774  |  Average Precision Accurancy: 0.482506
+[11-30 19:25]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.003249
+[11-30 19:25]  -------------Round number:98 -------------
+[11-30 19:25]  Average Global Accurancy: 0.461059  |  Average Client Accurancy:    0.461503
+[11-30 19:25]  Average AUC Accurancy:    0.801151  |  Average F1-Score Accurancy:  0.427908
+[11-30 19:25]  Average Recall Accurancy: 0.434882  |  Average Precision Accurancy: 0.481382
+[11-30 19:25]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.003141
+[11-30 19:25]  -------------Round number:99 -------------
+[11-30 19:25]  Average Global Accurancy: 0.461059  |  Average Client Accurancy:    0.461488
+[11-30 19:25]  Average AUC Accurancy:    0.801081  |  Average F1-Score Accurancy:  0.427252
+[11-30 19:25]  Average Recall Accurancy: 0.434700  |  Average Precision Accurancy: 0.480299
+[11-30 19:25]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.003215
+[11-30 19:25]  -------------Round number:100 -------------
+[11-30 19:26]  Average Global Accurancy: 0.460021  |  Average Client Accurancy:    0.460482
+[11-30 19:26]  Average AUC Accurancy:    0.801109  |  Average F1-Score Accurancy:  0.427231
+[11-30 19:26]  Average Recall Accurancy: 0.433900  |  Average Precision Accurancy: 0.480827
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002990
+[11-30 19:26]  -------------Round number:101 -------------
+[11-30 19:26]  Average Global Accurancy: 0.460021  |  Average Client Accurancy:    0.460482
+[11-30 19:26]  Average AUC Accurancy:    0.801080  |  Average F1-Score Accurancy:  0.427231
+[11-30 19:26]  Average Recall Accurancy: 0.433900  |  Average Precision Accurancy: 0.480827
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002906
+[11-30 19:26]  -------------Round number:102 -------------
+[11-30 19:26]  Average Global Accurancy: 0.458982  |  Average Client Accurancy:    0.459427
+[11-30 19:26]  Average AUC Accurancy:    0.801064  |  Average F1-Score Accurancy:  0.425817
+[11-30 19:26]  Average Recall Accurancy: 0.432703  |  Average Precision Accurancy: 0.479151
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002736
+[11-30 19:26]  -------------Round number:103 -------------
+[11-30 19:26]  Average Global Accurancy: 0.458982  |  Average Client Accurancy:    0.459427
+[11-30 19:26]  Average AUC Accurancy:    0.801054  |  Average F1-Score Accurancy:  0.425817
+[11-30 19:26]  Average Recall Accurancy: 0.432703  |  Average Precision Accurancy: 0.479151
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002878
+[11-30 19:26]  -------------Round number:104 -------------
+[11-30 19:26]  Average Global Accurancy: 0.460021  |  Average Client Accurancy:    0.460482
+[11-30 19:26]  Average AUC Accurancy:    0.801040  |  Average F1-Score Accurancy:  0.427231
+[11-30 19:26]  Average Recall Accurancy: 0.433900  |  Average Precision Accurancy: 0.480827
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.003125
+[11-30 19:26]  -------------Round number:105 -------------
+[11-30 19:26]  Average Global Accurancy: 0.458982  |  Average Client Accurancy:    0.459460
+[11-30 19:26]  Average AUC Accurancy:    0.801000  |  Average F1-Score Accurancy:  0.426317
+[11-30 19:26]  Average Recall Accurancy: 0.432864  |  Average Precision Accurancy: 0.480461
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002721
+[11-30 19:26]  -------------Round number:106 -------------
+[11-30 19:26]  Average Global Accurancy: 0.460021  |  Average Client Accurancy:    0.460482
+[11-30 19:26]  Average AUC Accurancy:    0.801014  |  Average F1-Score Accurancy:  0.427543
+[11-30 19:26]  Average Recall Accurancy: 0.433900  |  Average Precision Accurancy: 0.483216
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002762
+[11-30 19:26]  -------------Round number:107 -------------
+[11-30 19:26]  Average Global Accurancy: 0.458982  |  Average Client Accurancy:    0.459462
+[11-30 19:26]  Average AUC Accurancy:    0.800970  |  Average F1-Score Accurancy:  0.426609
+[11-30 19:26]  Average Recall Accurancy: 0.432917  |  Average Precision Accurancy: 0.482617
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002572
+[11-30 19:26]  -------------Round number:108 -------------
+[11-30 19:26]  Average Global Accurancy: 0.458982  |  Average Client Accurancy:    0.459462
+[11-30 19:26]  Average AUC Accurancy:    0.800952  |  Average F1-Score Accurancy:  0.426669
+[11-30 19:26]  Average Recall Accurancy: 0.432917  |  Average Precision Accurancy: 0.482958
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002573
+[11-30 19:26]  -------------Round number:109 -------------
+[11-30 19:26]  Average Global Accurancy: 0.458982  |  Average Client Accurancy:    0.459462
+[11-30 19:26]  Average AUC Accurancy:    0.800959  |  Average F1-Score Accurancy:  0.426669
+[11-30 19:26]  Average Recall Accurancy: 0.432917  |  Average Precision Accurancy: 0.482958
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002561
+[11-30 19:26]  -------------Round number:110 -------------
+[11-30 19:26]  Average Global Accurancy: 0.457944  |  Average Client Accurancy:    0.458439
+[11-30 19:26]  Average AUC Accurancy:    0.800902  |  Average F1-Score Accurancy:  0.425755
+[11-30 19:26]  Average Recall Accurancy: 0.431882  |  Average Precision Accurancy: 0.482592
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002409
+[11-30 19:26]  -------------Round number:111 -------------
+[11-30 19:26]  Average Global Accurancy: 0.457944  |  Average Client Accurancy:    0.458439
+[11-30 19:26]  Average AUC Accurancy:    0.800851  |  Average F1-Score Accurancy:  0.425704
+[11-30 19:26]  Average Recall Accurancy: 0.431882  |  Average Precision Accurancy: 0.482505
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002426
+[11-30 19:26]  -------------Round number:112 -------------
+[11-30 19:26]  Average Global Accurancy: 0.457944  |  Average Client Accurancy:    0.458406
+[11-30 19:26]  Average AUC Accurancy:    0.800845  |  Average F1-Score Accurancy:  0.425205
+[11-30 19:26]  Average Recall Accurancy: 0.431721  |  Average Precision Accurancy: 0.481196
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002439
+[11-30 19:26]  -------------Round number:113 -------------
+[11-30 19:26]  Average Global Accurancy: 0.457944  |  Average Client Accurancy:    0.458449
+[11-30 19:26]  Average AUC Accurancy:    0.800840  |  Average F1-Score Accurancy:  0.425032
+[11-30 19:26]  Average Recall Accurancy: 0.431471  |  Average Precision Accurancy: 0.481178
+[11-30 19:26]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002299
+[11-30 19:26]  -------------Round number:114 -------------
+[11-30 19:27]  Average Global Accurancy: 0.458982  |  Average Client Accurancy:    0.459462
+[11-30 19:27]  Average AUC Accurancy:    0.800819  |  Average F1-Score Accurancy:  0.426619
+[11-30 19:27]  Average Recall Accurancy: 0.432917  |  Average Precision Accurancy: 0.482871
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002224
+[11-30 19:27]  -------------Round number:115 -------------
+[11-30 19:27]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454273
+[11-30 19:27]  Average AUC Accurancy:    0.800810  |  Average F1-Score Accurancy:  0.421219
+[11-30 19:27]  Average Recall Accurancy: 0.427987  |  Average Precision Accurancy: 0.476995
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002372
+[11-30 19:27]  -------------Round number:116 -------------
+[11-30 19:27]  Average Global Accurancy: 0.454829  |  Average Client Accurancy:    0.455329
+[11-30 19:27]  Average AUC Accurancy:    0.800832  |  Average F1-Score Accurancy:  0.422633
+[11-30 19:27]  Average Recall Accurancy: 0.429183  |  Average Precision Accurancy: 0.478670
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002172
+[11-30 19:27]  -------------Round number:117 -------------
+[11-30 19:27]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454273
+[11-30 19:27]  Average AUC Accurancy:    0.800822  |  Average F1-Score Accurancy:  0.421219
+[11-30 19:27]  Average Recall Accurancy: 0.427987  |  Average Precision Accurancy: 0.476995
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002217
+[11-30 19:27]  -------------Round number:118 -------------
+[11-30 19:27]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454273
+[11-30 19:27]  Average AUC Accurancy:    0.800805  |  Average F1-Score Accurancy:  0.421219
+[11-30 19:27]  Average Recall Accurancy: 0.427987  |  Average Precision Accurancy: 0.476995
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002247
+[11-30 19:27]  -------------Round number:119 -------------
+[11-30 19:27]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454273
+[11-30 19:27]  Average AUC Accurancy:    0.800769  |  Average F1-Score Accurancy:  0.421219
+[11-30 19:27]  Average Recall Accurancy: 0.427987  |  Average Precision Accurancy: 0.476995
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002135
+[11-30 19:27]  -------------Round number:120 -------------
+[11-30 19:27]  Average Global Accurancy: 0.454829  |  Average Client Accurancy:    0.455313
+[11-30 19:27]  Average AUC Accurancy:    0.800760  |  Average F1-Score Accurancy:  0.421975
+[11-30 19:27]  Average Recall Accurancy: 0.428784  |  Average Precision Accurancy: 0.477625
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002146
+[11-30 19:27]  -------------Round number:121 -------------
+[11-30 19:27]  Average Global Accurancy: 0.454829  |  Average Client Accurancy:    0.455313
+[11-30 19:27]  Average AUC Accurancy:    0.800706  |  Average F1-Score Accurancy:  0.421975
+[11-30 19:27]  Average Recall Accurancy: 0.428784  |  Average Precision Accurancy: 0.477625
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002174
+[11-30 19:27]  -------------Round number:122 -------------
+[11-30 19:27]  Average Global Accurancy: 0.454829  |  Average Client Accurancy:    0.455313
+[11-30 19:27]  Average AUC Accurancy:    0.800696  |  Average F1-Score Accurancy:  0.421975
+[11-30 19:27]  Average Recall Accurancy: 0.428784  |  Average Precision Accurancy: 0.477625
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001968
+[11-30 19:27]  -------------Round number:123 -------------
+[11-30 19:27]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454273
+[11-30 19:27]  Average AUC Accurancy:    0.800695  |  Average F1-Score Accurancy:  0.421219
+[11-30 19:27]  Average Recall Accurancy: 0.427987  |  Average Precision Accurancy: 0.476995
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001957
+[11-30 19:27]  -------------Round number:124 -------------
+[11-30 19:27]  Average Global Accurancy: 0.454829  |  Average Client Accurancy:    0.455313
+[11-30 19:27]  Average AUC Accurancy:    0.800660  |  Average F1-Score Accurancy:  0.421975
+[11-30 19:27]  Average Recall Accurancy: 0.428784  |  Average Precision Accurancy: 0.477625
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.002204
+[11-30 19:27]  -------------Round number:125 -------------
+[11-30 19:27]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454273
+[11-30 19:27]  Average AUC Accurancy:    0.800689  |  Average F1-Score Accurancy:  0.421219
+[11-30 19:27]  Average Recall Accurancy: 0.427987  |  Average Precision Accurancy: 0.476995
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001968
+[11-30 19:27]  -------------Round number:126 -------------
+[11-30 19:27]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454273
+[11-30 19:27]  Average AUC Accurancy:    0.800654  |  Average F1-Score Accurancy:  0.421219
+[11-30 19:27]  Average Recall Accurancy: 0.427987  |  Average Precision Accurancy: 0.476995
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001967
+[11-30 19:27]  -------------Round number:127 -------------
+[11-30 19:27]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454273
+[11-30 19:27]  Average AUC Accurancy:    0.800637  |  Average F1-Score Accurancy:  0.421219
+[11-30 19:27]  Average Recall Accurancy: 0.427987  |  Average Precision Accurancy: 0.476995
+[11-30 19:27]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001854
+[11-30 19:27]  -------------Round number:128 -------------
+[11-30 19:28]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454273
+[11-30 19:28]  Average AUC Accurancy:    0.800611  |  Average F1-Score Accurancy:  0.421219
+[11-30 19:28]  Average Recall Accurancy: 0.427987  |  Average Precision Accurancy: 0.476995
+[11-30 19:28]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001803
+[11-30 19:28]  -------------Round number:129 -------------
+[11-30 19:28]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454273
+[11-30 19:28]  Average AUC Accurancy:    0.800605  |  Average F1-Score Accurancy:  0.421219
+[11-30 19:28]  Average Recall Accurancy: 0.427987  |  Average Precision Accurancy: 0.476995
+[11-30 19:28]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001810
+[11-30 19:28]  -------------Round number:130 -------------
+[11-30 19:28]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454273
+[11-30 19:28]  Average AUC Accurancy:    0.800591  |  Average F1-Score Accurancy:  0.421219
+[11-30 19:28]  Average Recall Accurancy: 0.427987  |  Average Precision Accurancy: 0.476995
+[11-30 19:28]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001789
+[11-30 19:28]  -------------Round number:131 -------------
+[11-30 19:28]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453241
+[11-30 19:28]  Average AUC Accurancy:    0.800572  |  Average F1-Score Accurancy:  0.420792
+[11-30 19:28]  Average Recall Accurancy: 0.427264  |  Average Precision Accurancy: 0.476790
+[11-30 19:28]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001741
+[11-30 19:28]  -------------Round number:132 -------------
+[11-30 19:28]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453241
+[11-30 19:28]  Average AUC Accurancy:    0.800573  |  Average F1-Score Accurancy:  0.420792
+[11-30 19:28]  Average Recall Accurancy: 0.427264  |  Average Precision Accurancy: 0.476790
+[11-30 19:28]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001831
+[11-30 19:28]  -------------Round number:133 -------------
+[11-30 19:28]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453241
+[11-30 19:28]  Average AUC Accurancy:    0.800567  |  Average F1-Score Accurancy:  0.420792
+[11-30 19:28]  Average Recall Accurancy: 0.427264  |  Average Precision Accurancy: 0.476790
+[11-30 19:28]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001716
+[11-30 19:28]  -------------Round number:134 -------------
+[11-30 19:28]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453241
+[11-30 19:28]  Average AUC Accurancy:    0.800515  |  Average F1-Score Accurancy:  0.420792
+[11-30 19:28]  Average Recall Accurancy: 0.427264  |  Average Precision Accurancy: 0.476790
+[11-30 19:28]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001657
+[11-30 19:28]  -------------Round number:135 -------------
+[11-30 19:28]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453241
+[11-30 19:28]  Average AUC Accurancy:    0.800505  |  Average F1-Score Accurancy:  0.420792
+[11-30 19:28]  Average Recall Accurancy: 0.427264  |  Average Precision Accurancy: 0.476790
+[11-30 19:28]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001658
+[11-30 19:28]  -------------Round number:136 -------------
+[11-30 19:28]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454307
+[11-30 19:28]  Average AUC Accurancy:    0.800522  |  Average F1-Score Accurancy:  0.421534
+[11-30 19:28]  Average Recall Accurancy: 0.428050  |  Average Precision Accurancy: 0.477138
+[11-30 19:28]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001643
+[11-30 19:28]  -------------Round number:137 -------------
+[11-30 19:28]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453241
+[11-30 19:28]  Average AUC Accurancy:    0.800485  |  Average F1-Score Accurancy:  0.420792
+[11-30 19:28]  Average Recall Accurancy: 0.427264  |  Average Precision Accurancy: 0.476790
+[11-30 19:28]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001741
+[11-30 19:28]  -------------Round number:138 -------------
+[11-30 19:28]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453241
+[11-30 19:28]  Average AUC Accurancy:    0.800470  |  Average F1-Score Accurancy:  0.420792
+[11-30 19:28]  Average Recall Accurancy: 0.427264  |  Average Precision Accurancy: 0.476790
+[11-30 19:28]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001578
+[11-30 19:28]  -------------Round number:139 -------------
+[11-30 19:28]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454307
+[11-30 19:28]  Average AUC Accurancy:    0.800463  |  Average F1-Score Accurancy:  0.421534
+[11-30 19:28]  Average Recall Accurancy: 0.428050  |  Average Precision Accurancy: 0.477138
+[11-30 19:28]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001602
+[11-30 19:28]  -------------Round number:140 -------------
+[11-30 19:28]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453241
+[11-30 19:28]  Average AUC Accurancy:    0.800461  |  Average F1-Score Accurancy:  0.420792
+[11-30 19:28]  Average Recall Accurancy: 0.427264  |  Average Precision Accurancy: 0.476790
+[11-30 19:28]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001595
+[11-30 19:28]  -------------Round number:141 -------------
+[11-30 19:29]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454307
+[11-30 19:29]  Average AUC Accurancy:    0.800436  |  Average F1-Score Accurancy:  0.421534
+[11-30 19:29]  Average Recall Accurancy: 0.428050  |  Average Precision Accurancy: 0.477138
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001611
+[11-30 19:29]  -------------Round number:142 -------------
+[11-30 19:29]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454307
+[11-30 19:29]  Average AUC Accurancy:    0.800409  |  Average F1-Score Accurancy:  0.421534
+[11-30 19:29]  Average Recall Accurancy: 0.428050  |  Average Precision Accurancy: 0.477138
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001524
+[11-30 19:29]  -------------Round number:143 -------------
+[11-30 19:29]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453241
+[11-30 19:29]  Average AUC Accurancy:    0.800418  |  Average F1-Score Accurancy:  0.420792
+[11-30 19:29]  Average Recall Accurancy: 0.427264  |  Average Precision Accurancy: 0.476790
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001579
+[11-30 19:29]  -------------Round number:144 -------------
+[11-30 19:29]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453241
+[11-30 19:29]  Average AUC Accurancy:    0.800418  |  Average F1-Score Accurancy:  0.420792
+[11-30 19:29]  Average Recall Accurancy: 0.427264  |  Average Precision Accurancy: 0.476790
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001625
+[11-30 19:29]  -------------Round number:145 -------------
+[11-30 19:29]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454307
+[11-30 19:29]  Average AUC Accurancy:    0.800378  |  Average F1-Score Accurancy:  0.421534
+[11-30 19:29]  Average Recall Accurancy: 0.428050  |  Average Precision Accurancy: 0.477138
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001491
+[11-30 19:29]  -------------Round number:146 -------------
+[11-30 19:29]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454307
+[11-30 19:29]  Average AUC Accurancy:    0.800393  |  Average F1-Score Accurancy:  0.421534
+[11-30 19:29]  Average Recall Accurancy: 0.428050  |  Average Precision Accurancy: 0.477138
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001558
+[11-30 19:29]  -------------Round number:147 -------------
+[11-30 19:29]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454307
+[11-30 19:29]  Average AUC Accurancy:    0.800344  |  Average F1-Score Accurancy:  0.421534
+[11-30 19:29]  Average Recall Accurancy: 0.428050  |  Average Precision Accurancy: 0.477138
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001443
+[11-30 19:29]  -------------Round number:148 -------------
+[11-30 19:29]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454307
+[11-30 19:29]  Average AUC Accurancy:    0.800351  |  Average F1-Score Accurancy:  0.421444
+[11-30 19:29]  Average Recall Accurancy: 0.428050  |  Average Precision Accurancy: 0.476026
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001389
+[11-30 19:29]  -------------Round number:149 -------------
+[11-30 19:29]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454307
+[11-30 19:29]  Average AUC Accurancy:    0.800328  |  Average F1-Score Accurancy:  0.421444
+[11-30 19:29]  Average Recall Accurancy: 0.428050  |  Average Precision Accurancy: 0.476026
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001427
+[11-30 19:29]  -------------Round number:150 -------------
+[11-30 19:29]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454307
+[11-30 19:29]  Average AUC Accurancy:    0.800295  |  Average F1-Score Accurancy:  0.421534
+[11-30 19:29]  Average Recall Accurancy: 0.428050  |  Average Precision Accurancy: 0.477138
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001513
+[11-30 19:29]  -------------Round number:151 -------------
+[11-30 19:29]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454307
+[11-30 19:29]  Average AUC Accurancy:    0.800274  |  Average F1-Score Accurancy:  0.421534
+[11-30 19:29]  Average Recall Accurancy: 0.428050  |  Average Precision Accurancy: 0.477138
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001437
+[11-30 19:29]  -------------Round number:152 -------------
+[11-30 19:29]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454307
+[11-30 19:29]  Average AUC Accurancy:    0.800256  |  Average F1-Score Accurancy:  0.421534
+[11-30 19:29]  Average Recall Accurancy: 0.428050  |  Average Precision Accurancy: 0.477138
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001342
+[11-30 19:29]  -------------Round number:153 -------------
+[11-30 19:29]  Average Global Accurancy: 0.454829  |  Average Client Accurancy:    0.455330
+[11-30 19:29]  Average AUC Accurancy:    0.800239  |  Average F1-Score Accurancy:  0.422873
+[11-30 19:29]  Average Recall Accurancy: 0.428971  |  Average Precision Accurancy: 0.477210
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001323
+[11-30 19:29]  -------------Round number:154 -------------
+[11-30 19:29]  Average Global Accurancy: 0.454829  |  Average Client Accurancy:    0.455330
+[11-30 19:29]  Average AUC Accurancy:    0.800264  |  Average F1-Score Accurancy:  0.422873
+[11-30 19:29]  Average Recall Accurancy: 0.428971  |  Average Precision Accurancy: 0.477210
+[11-30 19:29]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001365
+[11-30 19:29]  -------------Round number:155 -------------
+[11-30 19:30]  Average Global Accurancy: 0.454829  |  Average Client Accurancy:    0.455330
+[11-30 19:30]  Average AUC Accurancy:    0.800216  |  Average F1-Score Accurancy:  0.422873
+[11-30 19:30]  Average Recall Accurancy: 0.428971  |  Average Precision Accurancy: 0.477210
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001415
+[11-30 19:30]  -------------Round number:156 -------------
+[11-30 19:30]  Average Global Accurancy: 0.454829  |  Average Client Accurancy:    0.455330
+[11-30 19:30]  Average AUC Accurancy:    0.800209  |  Average F1-Score Accurancy:  0.422873
+[11-30 19:30]  Average Recall Accurancy: 0.428971  |  Average Precision Accurancy: 0.477210
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001325
+[11-30 19:30]  -------------Round number:157 -------------
+[11-30 19:30]  Average Global Accurancy: 0.454829  |  Average Client Accurancy:    0.455330
+[11-30 19:30]  Average AUC Accurancy:    0.800196  |  Average F1-Score Accurancy:  0.422873
+[11-30 19:30]  Average Recall Accurancy: 0.428971  |  Average Precision Accurancy: 0.477210
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001293
+[11-30 19:30]  -------------Round number:158 -------------
+[11-30 19:30]  Average Global Accurancy: 0.455867  |  Average Client Accurancy:    0.456356
+[11-30 19:30]  Average AUC Accurancy:    0.800162  |  Average F1-Score Accurancy:  0.425829
+[11-30 19:30]  Average Recall Accurancy: 0.430819  |  Average Precision Accurancy: 0.484602
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001273
+[11-30 19:30]  -------------Round number:159 -------------
+[11-30 19:30]  Average Global Accurancy: 0.455867  |  Average Client Accurancy:    0.456356
+[11-30 19:30]  Average AUC Accurancy:    0.800154  |  Average F1-Score Accurancy:  0.425829
+[11-30 19:30]  Average Recall Accurancy: 0.430819  |  Average Precision Accurancy: 0.484602
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001301
+[11-30 19:30]  -------------Round number:160 -------------
+[11-30 19:30]  Average Global Accurancy: 0.455867  |  Average Client Accurancy:    0.456356
+[11-30 19:30]  Average AUC Accurancy:    0.800158  |  Average F1-Score Accurancy:  0.425829
+[11-30 19:30]  Average Recall Accurancy: 0.430819  |  Average Precision Accurancy: 0.484602
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001244
+[11-30 19:30]  -------------Round number:161 -------------
+[11-30 19:30]  Average Global Accurancy: 0.455867  |  Average Client Accurancy:    0.456356
+[11-30 19:30]  Average AUC Accurancy:    0.800121  |  Average F1-Score Accurancy:  0.425829
+[11-30 19:30]  Average Recall Accurancy: 0.430819  |  Average Precision Accurancy: 0.484602
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001231
+[11-30 19:30]  -------------Round number:162 -------------
+[11-30 19:30]  Average Global Accurancy: 0.455867  |  Average Client Accurancy:    0.456356
+[11-30 19:30]  Average AUC Accurancy:    0.800105  |  Average F1-Score Accurancy:  0.425829
+[11-30 19:30]  Average Recall Accurancy: 0.430819  |  Average Precision Accurancy: 0.484602
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001196
+[11-30 19:30]  -------------Round number:163 -------------
+[11-30 19:30]  Average Global Accurancy: 0.455867  |  Average Client Accurancy:    0.456356
+[11-30 19:30]  Average AUC Accurancy:    0.800066  |  Average F1-Score Accurancy:  0.425829
+[11-30 19:30]  Average Recall Accurancy: 0.430819  |  Average Precision Accurancy: 0.484602
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001222
+[11-30 19:30]  -------------Round number:164 -------------
+[11-30 19:30]  Average Global Accurancy: 0.453790  |  Average Client Accurancy:    0.454304
+[11-30 19:30]  Average AUC Accurancy:    0.800040  |  Average F1-Score Accurancy:  0.423619
+[11-30 19:30]  Average Recall Accurancy: 0.428780  |  Average Precision Accurancy: 0.484550
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001228
+[11-30 19:30]  -------------Round number:165 -------------
+[11-30 19:30]  Average Global Accurancy: 0.454829  |  Average Client Accurancy:    0.455327
+[11-30 19:30]  Average AUC Accurancy:    0.800015  |  Average F1-Score Accurancy:  0.424623
+[11-30 19:30]  Average Recall Accurancy: 0.429815  |  Average Precision Accurancy: 0.484550
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001194
+[11-30 19:30]  -------------Round number:166 -------------
+[11-30 19:30]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453273
+[11-30 19:30]  Average AUC Accurancy:    0.799975  |  Average F1-Score Accurancy:  0.422437
+[11-30 19:30]  Average Recall Accurancy: 0.427851  |  Average Precision Accurancy: 0.482925
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001207
+[11-30 19:30]  -------------Round number:167 -------------
+[11-30 19:30]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453273
+[11-30 19:30]  Average AUC Accurancy:    0.799965  |  Average F1-Score Accurancy:  0.422437
+[11-30 19:30]  Average Recall Accurancy: 0.427851  |  Average Precision Accurancy: 0.482925
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001120
+[11-30 19:30]  -------------Round number:168 -------------
+[11-30 19:30]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453273
+[11-30 19:30]  Average AUC Accurancy:    0.799931  |  Average F1-Score Accurancy:  0.422437
+[11-30 19:30]  Average Recall Accurancy: 0.427851  |  Average Precision Accurancy: 0.482925
+[11-30 19:30]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001169
+[11-30 19:30]  -------------Round number:169 -------------
+[11-30 19:31]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453273
+[11-30 19:31]  Average AUC Accurancy:    0.799927  |  Average F1-Score Accurancy:  0.422437
+[11-30 19:31]  Average Recall Accurancy: 0.427851  |  Average Precision Accurancy: 0.482925
+[11-30 19:31]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001165
+[11-30 19:31]  -------------Round number:170 -------------
+[11-30 19:31]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453273
+[11-30 19:31]  Average AUC Accurancy:    0.799929  |  Average F1-Score Accurancy:  0.422437
+[11-30 19:31]  Average Recall Accurancy: 0.427851  |  Average Precision Accurancy: 0.482925
+[11-30 19:31]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001102
+[11-30 19:31]  -------------Round number:171 -------------
+[11-30 19:31]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453273
+[11-30 19:31]  Average AUC Accurancy:    0.799917  |  Average F1-Score Accurancy:  0.422437
+[11-30 19:31]  Average Recall Accurancy: 0.427851  |  Average Precision Accurancy: 0.482925
+[11-30 19:31]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001102
+[11-30 19:31]  -------------Round number:172 -------------
+[11-30 19:31]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453273
+[11-30 19:31]  Average AUC Accurancy:    0.799924  |  Average F1-Score Accurancy:  0.422437
+[11-30 19:31]  Average Recall Accurancy: 0.427851  |  Average Precision Accurancy: 0.482925
+[11-30 19:31]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001100
+[11-30 19:31]  -------------Round number:173 -------------
+[11-30 19:31]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453273
+[11-30 19:31]  Average AUC Accurancy:    0.799912  |  Average F1-Score Accurancy:  0.422437
+[11-30 19:31]  Average Recall Accurancy: 0.427851  |  Average Precision Accurancy: 0.482925
+[11-30 19:31]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001071
+[11-30 19:31]  -------------Round number:174 -------------
+[11-30 19:31]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:31]  Average AUC Accurancy:    0.799870  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:31]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:31]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001117
+[11-30 19:31]  -------------Round number:175 -------------
+[11-30 19:31]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453273
+[11-30 19:31]  Average AUC Accurancy:    0.799848  |  Average F1-Score Accurancy:  0.422437
+[11-30 19:31]  Average Recall Accurancy: 0.427851  |  Average Precision Accurancy: 0.482925
+[11-30 19:31]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001082
+[11-30 19:31]  -------------Round number:176 -------------
+[11-30 19:31]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:31]  Average AUC Accurancy:    0.799833  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:31]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:31]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001090
+[11-30 19:31]  -------------Round number:177 -------------
+[11-30 19:31]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:31]  Average AUC Accurancy:    0.799827  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:31]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:31]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001057
+[11-30 19:31]  -------------Round number:178 -------------
+[11-30 19:31]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:31]  Average AUC Accurancy:    0.799841  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:31]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:31]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001089
+[11-30 19:31]  -------------Round number:179 -------------
+[11-30 19:31]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:31]  Average AUC Accurancy:    0.799828  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:31]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:31]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001095
+[11-30 19:31]  -------------Round number:180 -------------
+[11-30 19:31]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:31]  Average AUC Accurancy:    0.799834  |  Average F1-Score Accurancy:  0.419236
+[11-30 19:31]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478503
+[11-30 19:31]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001057
+[11-30 19:31]  -------------Round number:181 -------------
+[11-30 19:31]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:31]  Average AUC Accurancy:    0.799808  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:31]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:31]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001013
+[11-30 19:31]  -------------Round number:182 -------------
+[11-30 19:32]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:32]  Average AUC Accurancy:    0.799820  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:32]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001023
+[11-30 19:32]  -------------Round number:183 -------------
+[11-30 19:32]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:32]  Average AUC Accurancy:    0.799809  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:32]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001046
+[11-30 19:32]  -------------Round number:184 -------------
+[11-30 19:32]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:32]  Average AUC Accurancy:    0.799781  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:32]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000982
+[11-30 19:32]  -------------Round number:185 -------------
+[11-30 19:32]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:32]  Average AUC Accurancy:    0.799760  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:32]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001042
+[11-30 19:32]  -------------Round number:186 -------------
+[11-30 19:32]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:32]  Average AUC Accurancy:    0.799744  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:32]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000987
+[11-30 19:32]  -------------Round number:187 -------------
+[11-30 19:32]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:32]  Average AUC Accurancy:    0.799745  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:32]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001061
+[11-30 19:32]  -------------Round number:188 -------------
+[11-30 19:32]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:32]  Average AUC Accurancy:    0.799734  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:32]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000968
+[11-30 19:32]  -------------Round number:189 -------------
+[11-30 19:32]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:32]  Average AUC Accurancy:    0.799708  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:32]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.001007
+[11-30 19:32]  -------------Round number:190 -------------
+[11-30 19:32]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:32]  Average AUC Accurancy:    0.799704  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:32]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000936
+[11-30 19:32]  -------------Round number:191 -------------
+[11-30 19:32]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:32]  Average AUC Accurancy:    0.799713  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:32]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000949
+[11-30 19:32]  -------------Round number:192 -------------
+[11-30 19:32]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:32]  Average AUC Accurancy:    0.799715  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:32]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000983
+[11-30 19:32]  -------------Round number:193 -------------
+[11-30 19:32]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:32]  Average AUC Accurancy:    0.799698  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:32]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000917
+[11-30 19:32]  -------------Round number:194 -------------
+[11-30 19:32]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:32]  Average AUC Accurancy:    0.799697  |  Average F1-Score Accurancy:  0.419348
+[11-30 19:32]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478857
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000901
+[11-30 19:32]  -------------Round number:195 -------------
+[11-30 19:32]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453264
+[11-30 19:32]  Average AUC Accurancy:    0.799696  |  Average F1-Score Accurancy:  0.420168
+[11-30 19:32]  Average Recall Accurancy: 0.426386  |  Average Precision Accurancy: 0.479564
+[11-30 19:32]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000897
+[11-30 19:32]  -------------Round number:196 -------------
+[11-30 19:33]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453264
+[11-30 19:33]  Average AUC Accurancy:    0.799675  |  Average F1-Score Accurancy:  0.420168
+[11-30 19:33]  Average Recall Accurancy: 0.426386  |  Average Precision Accurancy: 0.479564
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000943
+[11-30 19:33]  -------------Round number:197 -------------
+[11-30 19:33]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452232
+[11-30 19:33]  Average AUC Accurancy:    0.799674  |  Average F1-Score Accurancy:  0.419329
+[11-30 19:33]  Average Recall Accurancy: 0.425458  |  Average Precision Accurancy: 0.478618
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000889
+[11-30 19:33]  -------------Round number:198 -------------
+[11-30 19:33]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453264
+[11-30 19:33]  Average AUC Accurancy:    0.799642  |  Average F1-Score Accurancy:  0.420149
+[11-30 19:33]  Average Recall Accurancy: 0.426386  |  Average Precision Accurancy: 0.479325
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000907
+[11-30 19:33]  -------------Round number:199 -------------
+[11-30 19:33]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453264
+[11-30 19:33]  Average AUC Accurancy:    0.799626  |  Average F1-Score Accurancy:  0.420149
+[11-30 19:33]  Average Recall Accurancy: 0.426386  |  Average Precision Accurancy: 0.479325
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000920
+[11-30 19:33]  -------------Round number:200 -------------
+[11-30 19:33]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453264
+[11-30 19:33]  Average AUC Accurancy:    0.799607  |  Average F1-Score Accurancy:  0.420149
+[11-30 19:33]  Average Recall Accurancy: 0.426386  |  Average Precision Accurancy: 0.479325
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000869
+[11-30 19:33]  -------------Round number:201 -------------
+[11-30 19:33]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453264
+[11-30 19:33]  Average AUC Accurancy:    0.799609  |  Average F1-Score Accurancy:  0.420149
+[11-30 19:33]  Average Recall Accurancy: 0.426386  |  Average Precision Accurancy: 0.479325
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000890
+[11-30 19:33]  -------------Round number:202 -------------
+[11-30 19:33]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453264
+[11-30 19:33]  Average AUC Accurancy:    0.799608  |  Average F1-Score Accurancy:  0.420124
+[11-30 19:33]  Average Recall Accurancy: 0.426386  |  Average Precision Accurancy: 0.479453
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000893
+[11-30 19:33]  -------------Round number:203 -------------
+[11-30 19:33]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453264
+[11-30 19:33]  Average AUC Accurancy:    0.799615  |  Average F1-Score Accurancy:  0.420124
+[11-30 19:33]  Average Recall Accurancy: 0.426386  |  Average Precision Accurancy: 0.479453
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000898
+[11-30 19:33]  -------------Round number:204 -------------
+[11-30 19:33]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:33]  Average AUC Accurancy:    0.799610  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:33]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000826
+[11-30 19:33]  -------------Round number:205 -------------
+[11-30 19:33]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:33]  Average AUC Accurancy:    0.799580  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:33]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000842
+[11-30 19:33]  -------------Round number:206 -------------
+[11-30 19:33]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:33]  Average AUC Accurancy:    0.799584  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:33]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000885
+[11-30 19:33]  -------------Round number:207 -------------
+[11-30 19:33]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:33]  Average AUC Accurancy:    0.799582  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:33]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000817
+[11-30 19:33]  -------------Round number:208 -------------
+[11-30 19:33]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:33]  Average AUC Accurancy:    0.799573  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:33]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000804
+[11-30 19:33]  -------------Round number:209 -------------
+[11-30 19:33]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:33]  Average AUC Accurancy:    0.799603  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:33]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:33]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000836
+[11-30 19:33]  -------------Round number:210 -------------
+[11-30 19:34]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:34]  Average AUC Accurancy:    0.799576  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:34]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:34]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000806
+[11-30 19:34]  -------------Round number:211 -------------
+[11-30 19:34]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:34]  Average AUC Accurancy:    0.799571  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:34]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:34]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000832
+[11-30 19:34]  -------------Round number:212 -------------
+[11-30 19:34]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:34]  Average AUC Accurancy:    0.799572  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:34]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:34]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000790
+[11-30 19:34]  -------------Round number:213 -------------
+[11-30 19:34]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:34]  Average AUC Accurancy:    0.799557  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:34]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:34]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000796
+[11-30 19:34]  -------------Round number:214 -------------
+[11-30 19:34]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:34]  Average AUC Accurancy:    0.799542  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:34]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:34]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000802
+[11-30 19:34]  -------------Round number:215 -------------
+[11-30 19:34]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:34]  Average AUC Accurancy:    0.799533  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:34]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:34]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000776
+[11-30 19:34]  -------------Round number:216 -------------
+[11-30 19:34]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453274
+[11-30 19:34]  Average AUC Accurancy:    0.799535  |  Average F1-Score Accurancy:  0.419570
+[11-30 19:34]  Average Recall Accurancy: 0.426238  |  Average Precision Accurancy: 0.478347
+[11-30 19:34]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000802
+[11-30 19:34]  -------------Round number:217 -------------
+[11-30 19:34]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:34]  Average AUC Accurancy:    0.799524  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:34]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:34]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000796
+[11-30 19:34]  -------------Round number:218 -------------
+[11-30 19:34]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:34]  Average AUC Accurancy:    0.799511  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:34]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:34]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000819
+[11-30 19:34]  -------------Round number:219 -------------
+[11-30 19:34]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453274
+[11-30 19:34]  Average AUC Accurancy:    0.799504  |  Average F1-Score Accurancy:  0.419570
+[11-30 19:34]  Average Recall Accurancy: 0.426238  |  Average Precision Accurancy: 0.478347
+[11-30 19:34]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000765
+[11-30 19:34]  -------------Round number:220 -------------
+[11-30 19:34]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:34]  Average AUC Accurancy:    0.799498  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:34]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:34]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000749
+[11-30 19:34]  -------------Round number:221 -------------
+[11-30 19:34]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:34]  Average AUC Accurancy:    0.799483  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:34]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:34]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000731
+[11-30 19:34]  -------------Round number:222 -------------
+[11-30 19:34]  Average Global Accurancy: 0.452752  |  Average Client Accurancy:    0.453274
+[11-30 19:34]  Average AUC Accurancy:    0.799469  |  Average F1-Score Accurancy:  0.419570
+[11-30 19:34]  Average Recall Accurancy: 0.426238  |  Average Precision Accurancy: 0.478347
+[11-30 19:34]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000795
+[11-30 19:34]  -------------Round number:223 -------------
+[11-30 19:35]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451185
+[11-30 19:35]  Average AUC Accurancy:    0.799480  |  Average F1-Score Accurancy:  0.417626
+[11-30 19:35]  Average Recall Accurancy: 0.424269  |  Average Precision Accurancy: 0.477693
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000780
+[11-30 19:35]  -------------Round number:224 -------------
+[11-30 19:35]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:35]  Average AUC Accurancy:    0.799466  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:35]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000720
+[11-30 19:35]  -------------Round number:225 -------------
+[11-30 19:35]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:35]  Average AUC Accurancy:    0.799470  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:35]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000760
+[11-30 19:35]  -------------Round number:226 -------------
+[11-30 19:35]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:35]  Average AUC Accurancy:    0.799462  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:35]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000743
+[11-30 19:35]  -------------Round number:227 -------------
+[11-30 19:35]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:35]  Average AUC Accurancy:    0.799443  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:35]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000703
+[11-30 19:35]  -------------Round number:228 -------------
+[11-30 19:35]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452208
+[11-30 19:35]  Average AUC Accurancy:    0.799438  |  Average F1-Score Accurancy:  0.418789
+[11-30 19:35]  Average Recall Accurancy: 0.425190  |  Average Precision Accurancy: 0.478137
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000704
+[11-30 19:35]  -------------Round number:229 -------------
+[11-30 19:35]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451185
+[11-30 19:35]  Average AUC Accurancy:    0.799422  |  Average F1-Score Accurancy:  0.417626
+[11-30 19:35]  Average Recall Accurancy: 0.424269  |  Average Precision Accurancy: 0.477693
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000689
+[11-30 19:35]  -------------Round number:230 -------------
+[11-30 19:35]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451185
+[11-30 19:35]  Average AUC Accurancy:    0.799411  |  Average F1-Score Accurancy:  0.417626
+[11-30 19:35]  Average Recall Accurancy: 0.424269  |  Average Precision Accurancy: 0.477693
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000700
+[11-30 19:35]  -------------Round number:231 -------------
+[11-30 19:35]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:35]  Average AUC Accurancy:    0.799409  |  Average F1-Score Accurancy:  0.418407
+[11-30 19:35]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477903
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000703
+[11-30 19:35]  -------------Round number:232 -------------
+[11-30 19:35]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:35]  Average AUC Accurancy:    0.799376  |  Average F1-Score Accurancy:  0.418407
+[11-30 19:35]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477903
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000717
+[11-30 19:35]  -------------Round number:233 -------------
+[11-30 19:35]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:35]  Average AUC Accurancy:    0.799367  |  Average F1-Score Accurancy:  0.418407
+[11-30 19:35]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477903
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000681
+[11-30 19:35]  -------------Round number:234 -------------
+[11-30 19:35]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:35]  Average AUC Accurancy:    0.799362  |  Average F1-Score Accurancy:  0.418459
+[11-30 19:35]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477792
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000718
+[11-30 19:35]  -------------Round number:235 -------------
+[11-30 19:35]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:35]  Average AUC Accurancy:    0.799343  |  Average F1-Score Accurancy:  0.418459
+[11-30 19:35]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477792
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000677
+[11-30 19:35]  -------------Round number:236 -------------
+[11-30 19:35]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:35]  Average AUC Accurancy:    0.799346  |  Average F1-Score Accurancy:  0.418459
+[11-30 19:35]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477792
+[11-30 19:35]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000700
+[11-30 19:35]  -------------Round number:237 -------------
+[11-30 19:36]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:36]  Average AUC Accurancy:    0.799327  |  Average F1-Score Accurancy:  0.418407
+[11-30 19:36]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477903
+[11-30 19:36]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000705
+[11-30 19:36]  -------------Round number:238 -------------
+[11-30 19:36]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:36]  Average AUC Accurancy:    0.799326  |  Average F1-Score Accurancy:  0.418407
+[11-30 19:36]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477903
+[11-30 19:36]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000663
+[11-30 19:36]  -------------Round number:239 -------------
+[11-30 19:36]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:36]  Average AUC Accurancy:    0.799322  |  Average F1-Score Accurancy:  0.418368
+[11-30 19:36]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477444
+[11-30 19:36]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000706
+[11-30 19:36]  -------------Round number:240 -------------
+[11-30 19:36]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:36]  Average AUC Accurancy:    0.799336  |  Average F1-Score Accurancy:  0.418419
+[11-30 19:36]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477333
+[11-30 19:36]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000660
+[11-30 19:36]  -------------Round number:241 -------------
+[11-30 19:36]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:36]  Average AUC Accurancy:    0.799325  |  Average F1-Score Accurancy:  0.418461
+[11-30 19:36]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477297
+[11-30 19:36]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000655
+[11-30 19:36]  -------------Round number:242 -------------
+[11-30 19:36]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:36]  Average AUC Accurancy:    0.799310  |  Average F1-Score Accurancy:  0.418461
+[11-30 19:36]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477297
+[11-30 19:36]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000670
+[11-30 19:36]  -------------Round number:243 -------------
+[11-30 19:36]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:36]  Average AUC Accurancy:    0.799265  |  Average F1-Score Accurancy:  0.418368
+[11-30 19:36]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477444
+[11-30 19:36]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000639
+[11-30 19:36]  -------------Round number:244 -------------
+[11-30 19:36]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:36]  Average AUC Accurancy:    0.799281  |  Average F1-Score Accurancy:  0.418368
+[11-30 19:36]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477444
+[11-30 19:36]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000673
+[11-30 19:36]  -------------Round number:245 -------------
+[11-30 19:36]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:36]  Average AUC Accurancy:    0.799276  |  Average F1-Score Accurancy:  0.418419
+[11-30 19:36]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477333
+[11-30 19:36]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000638
+[11-30 19:36]  -------------Round number:246 -------------
+[11-30 19:36]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:36]  Average AUC Accurancy:    0.799278  |  Average F1-Score Accurancy:  0.418419
+[11-30 19:36]  Average Recall Accurancy: 0.425317  |  Average Precision Accurancy: 0.477333
+[11-30 19:36]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000658
+[11-30 19:36]  -------------Round number:247 -------------
+[11-30 19:36]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451211
+[11-30 19:36]  Average AUC Accurancy:    0.799268  |  Average F1-Score Accurancy:  0.417527
+[11-30 19:36]  Average Recall Accurancy: 0.424303  |  Average Precision Accurancy: 0.477220
+[11-30 19:36]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000618
+[11-30 19:36]  -------------Round number:248 -------------
+[11-30 19:36]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451210
+[11-30 19:36]  Average AUC Accurancy:    0.799286  |  Average F1-Score Accurancy:  0.417474
+[11-30 19:36]  Average Recall Accurancy: 0.424292  |  Average Precision Accurancy: 0.476991
+[11-30 19:36]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000618
+[11-30 19:36]  -------------Round number:249 -------------
+[11-30 19:36]  Average Global Accurancy: 0.449637  |  Average Client Accurancy:    0.450170
+[11-30 19:36]  Average AUC Accurancy:    0.799271  |  Average F1-Score Accurancy:  0.416582
+[11-30 19:36]  Average Recall Accurancy: 0.423277  |  Average Precision Accurancy: 0.476879
+[11-30 19:36]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000636
+[11-30 19:36]  -------------Round number:250 -------------
+[11-30 19:37]  Average Global Accurancy: 0.449637  |  Average Client Accurancy:    0.450170
+[11-30 19:37]  Average AUC Accurancy:    0.799262  |  Average F1-Score Accurancy:  0.416582
+[11-30 19:37]  Average Recall Accurancy: 0.423277  |  Average Precision Accurancy: 0.476879
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000624
+[11-30 19:37]  -------------Round number:251 -------------
+[11-30 19:37]  Average Global Accurancy: 0.449637  |  Average Client Accurancy:    0.450170
+[11-30 19:37]  Average AUC Accurancy:    0.799271  |  Average F1-Score Accurancy:  0.416582
+[11-30 19:37]  Average Recall Accurancy: 0.423277  |  Average Precision Accurancy: 0.476879
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000640
+[11-30 19:37]  -------------Round number:252 -------------
+[11-30 19:37]  Average Global Accurancy: 0.449637  |  Average Client Accurancy:    0.450170
+[11-30 19:37]  Average AUC Accurancy:    0.799256  |  Average F1-Score Accurancy:  0.416582
+[11-30 19:37]  Average Recall Accurancy: 0.423277  |  Average Precision Accurancy: 0.476879
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000645
+[11-30 19:37]  -------------Round number:253 -------------
+[11-30 19:37]  Average Global Accurancy: 0.448598  |  Average Client Accurancy:    0.449130
+[11-30 19:37]  Average AUC Accurancy:    0.799239  |  Average F1-Score Accurancy:  0.415390
+[11-30 19:37]  Average Recall Accurancy: 0.422081  |  Average Precision Accurancy: 0.475785
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000616
+[11-30 19:37]  -------------Round number:254 -------------
+[11-30 19:37]  Average Global Accurancy: 0.449637  |  Average Client Accurancy:    0.450170
+[11-30 19:37]  Average AUC Accurancy:    0.799238  |  Average F1-Score Accurancy:  0.416582
+[11-30 19:37]  Average Recall Accurancy: 0.423277  |  Average Precision Accurancy: 0.476879
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000636
+[11-30 19:37]  -------------Round number:255 -------------
+[11-30 19:37]  Average Global Accurancy: 0.449637  |  Average Client Accurancy:    0.450170
+[11-30 19:37]  Average AUC Accurancy:    0.799240  |  Average F1-Score Accurancy:  0.416582
+[11-30 19:37]  Average Recall Accurancy: 0.423277  |  Average Precision Accurancy: 0.476879
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000619
+[11-30 19:37]  -------------Round number:256 -------------
+[11-30 19:37]  Average Global Accurancy: 0.449637  |  Average Client Accurancy:    0.450170
+[11-30 19:37]  Average AUC Accurancy:    0.799241  |  Average F1-Score Accurancy:  0.416582
+[11-30 19:37]  Average Recall Accurancy: 0.423277  |  Average Precision Accurancy: 0.476879
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000620
+[11-30 19:37]  -------------Round number:257 -------------
+[11-30 19:37]  Average Global Accurancy: 0.448598  |  Average Client Accurancy:    0.449130
+[11-30 19:37]  Average AUC Accurancy:    0.799228  |  Average F1-Score Accurancy:  0.415390
+[11-30 19:37]  Average Recall Accurancy: 0.422081  |  Average Precision Accurancy: 0.475785
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000623
+[11-30 19:37]  -------------Round number:258 -------------
+[11-30 19:37]  Average Global Accurancy: 0.448598  |  Average Client Accurancy:    0.449130
+[11-30 19:37]  Average AUC Accurancy:    0.799225  |  Average F1-Score Accurancy:  0.415390
+[11-30 19:37]  Average Recall Accurancy: 0.422081  |  Average Precision Accurancy: 0.475785
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000595
+[11-30 19:37]  -------------Round number:259 -------------
+[11-30 19:37]  Average Global Accurancy: 0.448598  |  Average Client Accurancy:    0.449130
+[11-30 19:37]  Average AUC Accurancy:    0.799208  |  Average F1-Score Accurancy:  0.415390
+[11-30 19:37]  Average Recall Accurancy: 0.422081  |  Average Precision Accurancy: 0.475785
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000574
+[11-30 19:37]  -------------Round number:260 -------------
+[11-30 19:37]  Average Global Accurancy: 0.449637  |  Average Client Accurancy:    0.450170
+[11-30 19:37]  Average AUC Accurancy:    0.799207  |  Average F1-Score Accurancy:  0.416582
+[11-30 19:37]  Average Recall Accurancy: 0.423277  |  Average Precision Accurancy: 0.476879
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000598
+[11-30 19:37]  -------------Round number:261 -------------
+[11-30 19:37]  Average Global Accurancy: 0.448598  |  Average Client Accurancy:    0.449130
+[11-30 19:37]  Average AUC Accurancy:    0.799197  |  Average F1-Score Accurancy:  0.415390
+[11-30 19:37]  Average Recall Accurancy: 0.422081  |  Average Precision Accurancy: 0.475785
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000667
+[11-30 19:37]  -------------Round number:262 -------------
+[11-30 19:37]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451236
+[11-30 19:37]  Average AUC Accurancy:    0.799195  |  Average F1-Score Accurancy:  0.417667
+[11-30 19:37]  Average Recall Accurancy: 0.424325  |  Average Precision Accurancy: 0.477878
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000588
+[11-30 19:37]  -------------Round number:263 -------------
+[11-30 19:37]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451236
+[11-30 19:37]  Average AUC Accurancy:    0.799184  |  Average F1-Score Accurancy:  0.417667
+[11-30 19:37]  Average Recall Accurancy: 0.424325  |  Average Precision Accurancy: 0.477878
+[11-30 19:37]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000573
+[11-30 19:37]  -------------Round number:264 -------------
+[11-30 19:38]  Average Global Accurancy: 0.449637  |  Average Client Accurancy:    0.450170
+[11-30 19:38]  Average AUC Accurancy:    0.799174  |  Average F1-Score Accurancy:  0.416582
+[11-30 19:38]  Average Recall Accurancy: 0.423277  |  Average Precision Accurancy: 0.476879
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000595
+[11-30 19:38]  -------------Round number:265 -------------
+[11-30 19:38]  Average Global Accurancy: 0.448598  |  Average Client Accurancy:    0.449130
+[11-30 19:38]  Average AUC Accurancy:    0.799164  |  Average F1-Score Accurancy:  0.415390
+[11-30 19:38]  Average Recall Accurancy: 0.422081  |  Average Precision Accurancy: 0.475785
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000613
+[11-30 19:38]  -------------Round number:266 -------------
+[11-30 19:38]  Average Global Accurancy: 0.448598  |  Average Client Accurancy:    0.449130
+[11-30 19:38]  Average AUC Accurancy:    0.799158  |  Average F1-Score Accurancy:  0.415390
+[11-30 19:38]  Average Recall Accurancy: 0.422081  |  Average Precision Accurancy: 0.475785
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000553
+[11-30 19:38]  -------------Round number:267 -------------
+[11-30 19:38]  Average Global Accurancy: 0.449637  |  Average Client Accurancy:    0.450195
+[11-30 19:38]  Average AUC Accurancy:    0.799159  |  Average F1-Score Accurancy:  0.416475
+[11-30 19:38]  Average Recall Accurancy: 0.423129  |  Average Precision Accurancy: 0.476784
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000562
+[11-30 19:38]  -------------Round number:268 -------------
+[11-30 19:38]  Average Global Accurancy: 0.449637  |  Average Client Accurancy:    0.450195
+[11-30 19:38]  Average AUC Accurancy:    0.799144  |  Average F1-Score Accurancy:  0.416475
+[11-30 19:38]  Average Recall Accurancy: 0.423129  |  Average Precision Accurancy: 0.476784
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000583
+[11-30 19:38]  -------------Round number:269 -------------
+[11-30 19:38]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451225
+[11-30 19:38]  Average AUC Accurancy:    0.799130  |  Average F1-Score Accurancy:  0.417248
+[11-30 19:38]  Average Recall Accurancy: 0.424021  |  Average Precision Accurancy: 0.477434
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000564
+[11-30 19:38]  -------------Round number:270 -------------
+[11-30 19:38]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451225
+[11-30 19:38]  Average AUC Accurancy:    0.799140  |  Average F1-Score Accurancy:  0.417248
+[11-30 19:38]  Average Recall Accurancy: 0.424021  |  Average Precision Accurancy: 0.477434
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000541
+[11-30 19:38]  -------------Round number:271 -------------
+[11-30 19:38]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451225
+[11-30 19:38]  Average AUC Accurancy:    0.799127  |  Average F1-Score Accurancy:  0.417248
+[11-30 19:38]  Average Recall Accurancy: 0.424021  |  Average Precision Accurancy: 0.477434
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000563
+[11-30 19:38]  -------------Round number:272 -------------
+[11-30 19:38]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451225
+[11-30 19:38]  Average AUC Accurancy:    0.799132  |  Average F1-Score Accurancy:  0.417248
+[11-30 19:38]  Average Recall Accurancy: 0.424021  |  Average Precision Accurancy: 0.477434
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000573
+[11-30 19:38]  -------------Round number:273 -------------
+[11-30 19:38]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451225
+[11-30 19:38]  Average AUC Accurancy:    0.799118  |  Average F1-Score Accurancy:  0.417248
+[11-30 19:38]  Average Recall Accurancy: 0.424021  |  Average Precision Accurancy: 0.477434
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000538
+[11-30 19:38]  -------------Round number:274 -------------
+[11-30 19:38]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451225
+[11-30 19:38]  Average AUC Accurancy:    0.799129  |  Average F1-Score Accurancy:  0.417248
+[11-30 19:38]  Average Recall Accurancy: 0.424021  |  Average Precision Accurancy: 0.477434
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000561
+[11-30 19:38]  -------------Round number:275 -------------
+[11-30 19:38]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451225
+[11-30 19:38]  Average AUC Accurancy:    0.799114  |  Average F1-Score Accurancy:  0.417248
+[11-30 19:38]  Average Recall Accurancy: 0.424021  |  Average Precision Accurancy: 0.477434
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000521
+[11-30 19:38]  -------------Round number:276 -------------
+[11-30 19:38]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451225
+[11-30 19:38]  Average AUC Accurancy:    0.799117  |  Average F1-Score Accurancy:  0.417248
+[11-30 19:38]  Average Recall Accurancy: 0.424021  |  Average Precision Accurancy: 0.477434
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000528
+[11-30 19:38]  -------------Round number:277 -------------
+[11-30 19:38]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451225
+[11-30 19:38]  Average AUC Accurancy:    0.799098  |  Average F1-Score Accurancy:  0.417292
+[11-30 19:38]  Average Recall Accurancy: 0.424021  |  Average Precision Accurancy: 0.477601
+[11-30 19:38]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000536
+[11-30 19:38]  -------------Round number:278 -------------
+[11-30 19:39]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451225
+[11-30 19:39]  Average AUC Accurancy:    0.799109  |  Average F1-Score Accurancy:  0.417248
+[11-30 19:39]  Average Recall Accurancy: 0.424021  |  Average Precision Accurancy: 0.477434
+[11-30 19:39]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000529
+[11-30 19:39]  -------------Round number:279 -------------
+[11-30 19:39]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451225
+[11-30 19:39]  Average AUC Accurancy:    0.799095  |  Average F1-Score Accurancy:  0.417292
+[11-30 19:39]  Average Recall Accurancy: 0.424021  |  Average Precision Accurancy: 0.477601
+[11-30 19:39]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000542
+[11-30 19:39]  -------------Round number:280 -------------
+[11-30 19:39]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451225
+[11-30 19:39]  Average AUC Accurancy:    0.799097  |  Average F1-Score Accurancy:  0.417248
+[11-30 19:39]  Average Recall Accurancy: 0.424021  |  Average Precision Accurancy: 0.477434
+[11-30 19:39]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000552
+[11-30 19:39]  -------------Round number:281 -------------
+[11-30 19:39]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:39]  Average AUC Accurancy:    0.799094  |  Average F1-Score Accurancy:  0.418478
+[11-30 19:39]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478766
+[11-30 19:39]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000526
+[11-30 19:39]  -------------Round number:282 -------------
+[11-30 19:39]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:39]  Average AUC Accurancy:    0.799102  |  Average F1-Score Accurancy:  0.418434
+[11-30 19:39]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478599
+[11-30 19:39]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000536
+[11-30 19:39]  -------------Round number:283 -------------
+[11-30 19:39]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:39]  Average AUC Accurancy:    0.799102  |  Average F1-Score Accurancy:  0.418478
+[11-30 19:39]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478766
+[11-30 19:39]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000518
+[11-30 19:39]  -------------Round number:284 -------------
+[11-30 19:39]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:39]  Average AUC Accurancy:    0.799085  |  Average F1-Score Accurancy:  0.418434
+[11-30 19:39]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478599
+[11-30 19:39]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000512
+[11-30 19:39]  -------------Round number:285 -------------
+[11-30 19:39]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:39]  Average AUC Accurancy:    0.799077  |  Average F1-Score Accurancy:  0.418434
+[11-30 19:39]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478599
+[11-30 19:39]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000516
+[11-30 19:39]  -------------Round number:286 -------------
+[11-30 19:39]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:39]  Average AUC Accurancy:    0.799069  |  Average F1-Score Accurancy:  0.418478
+[11-30 19:39]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478766
+[11-30 19:39]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000500
+[11-30 19:39]  -------------Round number:287 -------------
+[11-30 19:39]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:39]  Average AUC Accurancy:    0.799050  |  Average F1-Score Accurancy:  0.418478
+[11-30 19:39]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478766
+[11-30 19:39]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000518
+[11-30 19:39]  -------------Round number:288 -------------
+[11-30 19:39]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:39]  Average AUC Accurancy:    0.799049  |  Average F1-Score Accurancy:  0.418478
+[11-30 19:39]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478766
+[11-30 19:39]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000505
+[11-30 19:39]  -------------Round number:289 -------------
+[11-30 19:39]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:39]  Average AUC Accurancy:    0.799034  |  Average F1-Score Accurancy:  0.418478
+[11-30 19:39]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478766
+[11-30 19:39]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000506
+[11-30 19:39]  -------------Round number:290 -------------
+[11-30 19:39]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:39]  Average AUC Accurancy:    0.799022  |  Average F1-Score Accurancy:  0.418478
+[11-30 19:39]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478766
+[11-30 19:39]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000516
+[11-30 19:39]  -------------Round number:291 -------------
+[11-30 19:40]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:40]  Average AUC Accurancy:    0.799026  |  Average F1-Score Accurancy:  0.418478
+[11-30 19:40]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478766
+[11-30 19:40]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000500
+[11-30 19:40]  -------------Round number:292 -------------
+[11-30 19:40]  Average Global Accurancy: 0.450675  |  Average Client Accurancy:    0.451186
+[11-30 19:40]  Average AUC Accurancy:    0.799009  |  Average F1-Score Accurancy:  0.417393
+[11-30 19:40]  Average Recall Accurancy: 0.424029  |  Average Precision Accurancy: 0.477766
+[11-30 19:40]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000519
+[11-30 19:40]  -------------Round number:293 -------------
+[11-30 19:40]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:40]  Average AUC Accurancy:    0.799010  |  Average F1-Score Accurancy:  0.418478
+[11-30 19:40]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478766
+[11-30 19:40]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000499
+[11-30 19:40]  -------------Round number:294 -------------
+[11-30 19:40]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:40]  Average AUC Accurancy:    0.799011  |  Average F1-Score Accurancy:  0.418434
+[11-30 19:40]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478599
+[11-30 19:40]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000494
+[11-30 19:40]  -------------Round number:295 -------------
+[11-30 19:40]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:40]  Average AUC Accurancy:    0.799003  |  Average F1-Score Accurancy:  0.418434
+[11-30 19:40]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478599
+[11-30 19:40]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000476
+[11-30 19:40]  -------------Round number:296 -------------
+[11-30 19:40]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:40]  Average AUC Accurancy:    0.799001  |  Average F1-Score Accurancy:  0.418447
+[11-30 19:40]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478733
+[11-30 19:40]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000489
+[11-30 19:40]  -------------Round number:297 -------------
+[11-30 19:40]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:40]  Average AUC Accurancy:    0.798999  |  Average F1-Score Accurancy:  0.418478
+[11-30 19:40]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478766
+[11-30 19:40]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000489
+[11-30 19:40]  -------------Round number:298 -------------
+[11-30 19:40]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:40]  Average AUC Accurancy:    0.798998  |  Average F1-Score Accurancy:  0.418478
+[11-30 19:40]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478766
+[11-30 19:40]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000479
+[11-30 19:40]  -------------Round number:299 -------------
+[11-30 19:40]  Average Global Accurancy: 0.451713  |  Average Client Accurancy:    0.452251
+[11-30 19:40]  Average AUC Accurancy:    0.799004  |  Average F1-Score Accurancy:  0.418478
+[11-30 19:40]  Average Recall Accurancy: 0.425077  |  Average Precision Accurancy: 0.478766
+[11-30 19:40]  Average Train Accurancy:  1.000000  |  Average Train Loss:          0.000465
+[11-30 19:40]  ----------------All Users Acc--------------------
+[11-30 19:40]  Logging all users best acc with n times(You should record last result):
+ [0.72881356 0.51282051 0.36764706 0.50769231 0.51388889 0.6440678
+ 0.49206349 0.3974359  0.58441558 0.7826087  0.53125    0.45833333
+ 0.29310345 0.71604938]
+, bset acc is 0.5378707112892738
+[11-30 19:40]  -------------------------------------------------
+[11-30 19:40]  Finished training.

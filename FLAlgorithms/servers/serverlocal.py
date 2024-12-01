@@ -12,7 +12,7 @@ class Local(Server):
 
     @LoggingUserAcc
     def train(self):
-        #仅仅分发一次参数
+        #Distribute parameters only once
         
         self.send_parameters()
         print(self.model)

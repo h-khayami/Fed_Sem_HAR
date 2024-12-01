@@ -18,6 +18,7 @@ class Server:
 
         # Set up the main attributes
         self.vis = args.vis
+        self.vis_proto = args.vis_proto
         self.fineturning_epochs = args.fineturning_epochs
         self.device = args.device
         self.dataset = args.dataset
@@ -130,21 +131,30 @@ class Server:
 
 
     def plot_2d_features(self ,model , add_legend = True):
-        net_logits = np.zeros((10000, 2), dtype=np.float32)
+        # Initialize net_logits and net_labels with the correct shape
+        first_user = self.users[0]
+        first_batch = next(iter(first_user.testloaderfull))
+        data, target = first_batch
+        data, target = data.to(self.device), target.to(self.device)
+        rep = model(x=data)['proto']  # Obtain the feature vector
+        feature_dim = rep.shape[1]
+        
+        net_logits = np.zeros((10000, feature_dim), dtype=np.float32)
         net_labels = np.zeros((10000,), dtype=np.int32)
+        
         model.eval()
         count = 0
-        for u_dx,user in enumerate(self.users):
+        for u_dx, user in enumerate(self.users):
             with torch.no_grad():
                 for b_idx, (data, target) in enumerate(user.testloaderfull):
                     data, target = data.to(self.device), target.to(self.device)
-                    rep = model(x=data)['proto']#拿到特征向量
+                    rep = model(x=data)['proto']  # Obtain the feature vector
                     output2d = rep.cpu().data.numpy()
                     target = target.cpu().data.numpy()
-                    # print(output2d.shape , target.shape,len(test_loader))
-                    net_logits[u_dx * ( len(target)) : (u_dx+1)*len(target), :] = output2d
-                    net_labels[u_dx * ( len(target)) : (u_dx+1)*len(target)] = target
+                    net_logits[u_dx * len(target): (u_dx + 1) * len(target), :] = output2d
+                    net_labels[u_dx * len(target): (u_dx + 1) * len(target)] = target
                     count += len(target)
+    
         # print(len(net_logits) , count)
         net_logits = np.delete( net_logits  , np.s_[count:],0 )
         # print(len(net_logits))
@@ -171,8 +181,12 @@ class Server:
                     bbox_to_anchor=(1.05,1.0),borderaxespad = 0.)
         # plt.subplots_adjust(wspace=0.8)
         plt.savefig( "runs/"+str(self.algorithm)+'_'+ str( self.dataset) +'_representation.png',dpi=600,bbox_inches='tight')
-        path = 'plotresult/'+str(self.algorithm)+'_'+ str( self.dataset)+'.json'
+        
         result = {'classes':classes , 'net_logits':net_logits.tolist(),'net_labels':net_labels.tolist()}
+        plot_dir = './plotresult/'
+        if not os.path.exists(plot_dir):
+            os.makedirs(plot_dir)
+        path = os.path.join(plot_dir, str(self.algorithm)+'_'+ str( self.dataset)+'.json')
         with open( path ,'w') as outfile:
             json.dump(result, outfile)
 
@@ -224,7 +238,7 @@ class Server:
             #self.add_parameters(user, 1 / len(self.selected_users))
 
         # aaggregate avergage model with previous model using parameter beta
-        # 综合平均模型与使用参数beta的先前模型 
+        # Combine the averaged model with the previous model using the parameter beta
         for pre_param, param in zip(previous_param, self.model.parameters()):
             param.data = self.beta*pre_param.data + (1 - self.beta)*param.data
    
@@ -238,9 +252,12 @@ class Server:
             if(self.algorithm == "pFedMe" or self.algorithm == "pFedMe_p"):
                 alg = alg + "_" + str(self.K) + "_" + str(self.personal_learning_rate)
             alg = alg + "_" + str(self.times)
-            if (len(self.rs_glob_acc) != 0 &  len(self.rs_train_acc) & len(self.rs_train_loss)) :
+            if (len(self.rs_glob_acc) != 0 and len(self.rs_train_acc) and len(self.rs_train_loss)):
                 print(f"{alg}")
-                with h5py.File("./results/"+'{}.h5'.format(alg), 'w') as hf:
+                results_dir = "./results/"
+                if not os.path.exists(results_dir):
+                    os.makedirs(results_dir)
+                with h5py.File(os.path.join(results_dir, '{}.h5'.format(alg)), 'w') as hf:
                     hf.create_dataset('rs_glob_acc', data=self.rs_glob_acc)
                     hf.create_dataset('rs_f1', data=self.rs_f1)
                     hf.create_dataset('rs_auc', data=self.rs_auc)

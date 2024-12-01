@@ -3,7 +3,7 @@ Author: your name
 Date: 2022-04-17 14:57:54
 LastEditTime: 2022-11-24 17:13:43
 LastEditors: error: git config user.name && git config user.email & please set dead value or install git
-Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+Description: Open the koroFileHeader to check the configuration and make settings.: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 FilePath: /chengdongzhou/federatedLearning/ProtoHARv2/FLAlgorithms/servers/serveravg copy.py
 '''
 import torch
